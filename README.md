@@ -1,7 +1,7 @@
-# Fresh Neo4j KG Build and Top-k Semantic Neighborhood Evaluation
+# CVE++ : A Semantic-Aware KG-based Vulnerability Reasoning Framework  
 
-This artifact assumes a reviewer starts from a brand-new empty local Neo4j database.
-No migration, reset, or in-place schema update is required.
+
+
 
 ## 1. Files
 
@@ -28,17 +28,8 @@ The semantic fields are:
 - `trigger`
 - `vulnerability_type`
 
-Each is represented as an exact-text merged semantic node with:
 
-- `value_key`
-- `value`
-- `embedding`
-- `model_name`
-- `task_prefix`
-
-The schema creates uniqueness constraints on `value_key`, full-text indexes on `value`, and vector indexes on `embedding` for these fields.
-
-## 3. Structured fields kept as before
+## 3. Structured fields
 
 The structural fields remain:
 
@@ -50,7 +41,7 @@ The structural fields remain:
 - `network_access` -> `NetworkAccess`
 - `privilege` -> `Privilege`
 
-`source` and `system_state` are not loaded as structural nodes in this version; they are semantic nodes.
+
 
 ## 4. Setup
 
@@ -80,7 +71,7 @@ If your dataset has a different name, update `CSV_PATH` in:
 - `create_semantic_embeddings.py`
 - `load_semantic_nodes.py`
 
-add Graph Data Science (GDS) plugin to the database. GDS plugin can be installed the GDS library directly from the UI
+add Graph Data Science (GDS) plugin to the database. GDS plugin can be installed the GDS library directly from the Neo4j UI
 
 ## 5. Fresh KG creation
 
@@ -96,13 +87,9 @@ To enforce reciprocal `SIMILAR_TO` edges:
 bash create_kg_fresh.sh --top_k 10 --reciprocal True
 ```
 
-To build nodes only and skip KNN similarity edges:
 
-```bash
-bash create_kg_fresh.sh --skip_similarity
-```
 
-To generate new embeddings jsonl file (if not already exists )  
+To generate new embeddings jsonl file (if not already exists ). [```semantic_embeddings_exact_merge.jsonl``` is provided]  
 
 ```bash
 bash create_kg_fresh.sh --do_embeddings
