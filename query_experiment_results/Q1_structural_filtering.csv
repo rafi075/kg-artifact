@@ -1,0 +1,11 @@
+cve_id,cvss,published_date,software,vendor
+CVE-2021-42313,10.0,2021-12-15T14:14:59,"[""Microsoft Defender for IoT""]",Microsoft
+CVE-2020-1467,10.0,2020-08-17T19:13:04,"[""Windows 10 Version 1809""]",Microsoft
+CVE-2021-26424,9.9,2021-08-12T18:11:32,"[""Windows 10 Version 1809""]",Microsoft
+CVE-2021-34458,9.9,2021-07-16T20:19:47,"[""Windows Server 2019""]",Microsoft
+CVE-2020-1595,9.9,2020-09-11T17:09:27,"[""Microsoft SharePoint Enterprise Server 2016""]",Microsoft
+CVE-2020-1210,9.9,2020-09-11T17:09:07,"[""Microsoft SharePoint Enterprise Server 2016""]",Microsoft
+CVE-2024-38199,9.8,2024-08-13T17:29:55.290Z,"[""Windows 10 Version 1809""]",Microsoft
+CVE-2024-21334,9.8,2024-03-12T16:57:57.499Z,"[""System Center Operations Manager (SCOM) 2019""]",Microsoft
+CVE-2023-32057,9.8,2023-07-11T17:03:17.264Z,"[""Windows 10 Version 1809""]",Microsoft
+CVE-2023-24943,9.8,2023-05-09T17:02:55.976Z,"[""Windows 10 Version 1809""]",Microsoft

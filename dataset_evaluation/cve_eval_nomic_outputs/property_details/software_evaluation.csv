@@ -1,0 +1,50 @@
+cve_id,property,annotated,predicted,similarity,case
+CVE-2024-21732,software,FlyCms,FlyCms,1.0,both_present
+CVE-2023-5877,software,affiliate-toolkit WordPress plugin,WordPress plugin,0.8826487064361572,both_present
+CVE-2023-6000,software,Popup Builder WordPress plugin,Popup Builder plugin,0.9692668914794922,both_present
+CVE-2023-6037,software,WP TripAdvisor Review Slider WordPress plugin,WP TripAdvisor Review Slider plugin,0.9878836274147034,both_present
+CVE-2023-6113,software,WP STAGING Pro WordPress Backup Plugin,"WP STAGING WordPress Backup Plugin, WP STAGING Pro WordPress Backup Plugin",0.9879910349845886,both_present
+CVE-2024-0181,software,RRJ Nueva Ecija Engineer Online Portal,Engineer Online Portal,0.8695856928825378,both_present
+CVE-2023-50094,software,reNgine,reNgine,1.0,both_present
+CVE-2023-50096,software,STSAFE-A1xx middleware,STSAFE-A1xx middleware,1.0,both_present
+CVE-2024-0182,software,SourceCodester Engineers Online Portal,Engineers Online Portal,0.9072593450546265,both_present
+CVE-2024-0186,software,HuiRan Host Reseller System,Host Reseller System,0.9155673980712891,both_present
+CVE-2023-32831,software,,wlan driver,,only_extracted
+CVE-2023-32874,software,Modem IMS Stack,Modem IMS Stack,1.0,both_present
+CVE-2023-32872,software,keyInstall,keyInstall,1.0,both_present
+CVE-2023-32878,software,battery,battery,1.0,both_present
+CVE-2023-32884,software,netdagent,netdagent,1.0,both_present
+CVE-2023-32888,software,Modem IMS Call UA,Modem IMS Call UA,1.0,both_present
+CVE-2023-26157,software,libredwg,libredwg,1.0,both_present
+CVE-2023-26159,software,follow-redirects,follow-redirects,1.0,both_present
+CVE-2023-28583,software,Netmgr daemon,Netmgr daemon,1.0,both_present
+CVE-2023-33032,software,TZ,TZ Secure OS,0.8371838331222534,both_present
+CVE-2023-33037,software,,,1.0,both_empty
+CVE-2023-33108,software,Graphics Driver,Graphics Driver,1.0,both_present
+CVE-2023-33110,software,PCM host voice audio driver,PCM host voice audio driver,1.0,both_present
+CVE-2023-43512,software,,GATT service parser,,only_extracted
+CVE-2023-47039,software,,Perl interpreter for Windows,,only_extracted
+CVE-2023-49142,software,OpenHarmony,OpenHarmony,1.0,both_present
+CVE-2023-47858,software,Mattermost,Mattermost,1.0,both_present
+CVE-2023-6693,software,QEMU,virtio-net device,0.6756300926208496,both_present
+CVE-2023-6436,software,Ekol Informatics Website Template,Website Template,0.8874613046646118,both_present
+CVE-2015-10128,software,rt-prettyphoto Plugin,rt-prettyphoto Plugin,1.0,both_present
+CVE-2017-20188,software,Zimbra zm-ajax,zm-ajax,0.956055223941803,both_present
+CVE-2018-25097,software,Acumos Design Studio,Design Studio,0.8819878697395325,both_present
+CVE-2023-4280,software,Gecko SDK,Gecko SDK,1.0,both_present
+CVE-2024-0193,software,netfilter subsystem,Linux kernel,0.7099145650863647,both_present
+CVE-2022-3010,software,TopControl Suite,TopControl Suite,1.0,both_present
+CVE-2023-48419,software,Google Home,Google Home,1.0,both_present
+CVE-2023-7192,software,,Linux Kernel,,only_extracted
+CVE-2023-49794,software,KernelSU,KernelSU kernel module,0.9359582662582397,both_present
+CVE-2023-50711,software,vmm-sys-util,vmm-sys-util,1.0,both_present
+CVE-2023-45892,software,Floorsight Insights,Floorsight Insights,1.0,both_present
+CVE-2023-47458,software,SpringBlade,SpringBlade,1.0,both_present
+CVE-2024-0194,software,CodeAstro Internet Banking System,Internet Banking System,0.9085083603858948,both_present
+CVE-2024-21623,software,OTCLient,OTClient,1.0,both_present
+CVE-2024-21627,software,PrestaShop,PrestaShop e-commerce platform,0.9127248525619507,both_present
+CVE-2020-26625,software,Gila CMS,Gila CMS,1.0,both_present
+CVE-2023-50019,software,open5gs,open5gs,1.0,both_present
+CVE-2024-0196,software,Magic-Api,Magic-Api,1.0,both_present
+CVE-2024-21629,software,Rust EVM,rust-evm,0.9927334785461426,both_present
+CVE-2024-21632,software,omniauth-microsoft_graph,omniauth-microsoft_graph,1.0,both_present

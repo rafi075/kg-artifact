@@ -1,0 +1,50 @@
+cve_id,property,annotated,predicted,similarity,case
+CVE-2024-21732,network_access,,Remote,,only_extracted
+CVE-2023-5877,network_access,,Remote,,only_extracted
+CVE-2023-6000,network_access,,Remote,,only_extracted
+CVE-2023-6037,network_access,,Local,,only_extracted
+CVE-2023-6113,network_access,,Remote,,only_extracted
+CVE-2024-0181,network_access,attack can be launched remotely,Remote,0.761794924736023,both_present
+CVE-2023-50094,network_access,,Remote,,only_extracted
+CVE-2023-50096,network_access,,Physical or local access to I2C bus,,only_extracted
+CVE-2024-0182,network_access,attack may be launched remotely,Remote,0.759494423866272,both_present
+CVE-2024-0186,network_access,possible to launch the attack remotely,Remote,0.7630181312561035,both_present
+CVE-2023-32831,network_access,local,Local,1.0,both_present
+CVE-2023-32874,network_access,remote,Remote,1.0,both_present
+CVE-2023-32872,network_access,local,Local,1.0,both_present
+CVE-2023-32878,network_access,local,Local,1.0,both_present
+CVE-2023-32884,network_access,local,Local,1.0,both_present
+CVE-2023-32888,network_access,remote,Remote,1.0,both_present
+CVE-2023-26157,network_access,,Local,,only_extracted
+CVE-2023-26159,network_access,,Remote,,only_extracted
+CVE-2023-28583,network_access,,Local,,only_extracted
+CVE-2023-33032,network_access,,Local,,only_extracted
+CVE-2023-33037,network_access,,,1.0,both_empty
+CVE-2023-33108,network_access,,,1.0,both_empty
+CVE-2023-33110,network_access,,Local,,only_extracted
+CVE-2023-43512,network_access,,Local,,only_extracted
+CVE-2023-47039,network_access,,Local,,only_extracted
+CVE-2023-49142,network_access,local attacker,Local,0.8659393787384033,both_present
+CVE-2023-47858,network_access,,Remote,,only_extracted
+CVE-2023-6693,network_access,,Remote,,only_extracted
+CVE-2023-6436,network_access,,Remote,,only_extracted
+CVE-2015-10128,network_access,attack may be launched remotely,Remote,0.759494423866272,both_present
+CVE-2017-20188,network_access,The attack can be launched remotely,Remote,0.761775016784668,both_present
+CVE-2018-25097,network_access,It is possible to launch the attack remotely,Remote,0.7610176205635071,both_present
+CVE-2023-4280,network_access,,Local,,only_extracted
+CVE-2024-0193,network_access,local,Local,1.0,both_present
+CVE-2022-3010,network_access,,Remote,,only_extracted
+CVE-2023-48419,network_access,wifi vicinity,Local Wi-Fi,0.8710459470748901,both_present
+CVE-2023-7192,network_access,local,Local,1.0,both_present
+CVE-2023-49794,network_access,,Local,,only_extracted
+CVE-2023-50711,network_access,,Local,,only_extracted
+CVE-2023-45892,network_access,remote,Remote,1.0,both_present
+CVE-2023-47458,network_access,remote,Remote,1.0,both_present
+CVE-2024-0194,network_access,attack may be initiated remotely,Remote,0.7678555250167847,both_present
+CVE-2024-21623,network_access,remotely,Remote,0.8984763026237488,both_present
+CVE-2024-21627,network_access,,Remote,,only_extracted
+CVE-2020-26625,network_access,remote,Remote,1.0,both_present
+CVE-2023-50019,network_access,,Remote,,only_extracted
+CVE-2024-0196,network_access,The attack can be launched remotely,Remote,0.761775016784668,both_present
+CVE-2024-21629,network_access,,,1.0,both_empty
+CVE-2024-21632,network_access,,Remote,,only_extracted

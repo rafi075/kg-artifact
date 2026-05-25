@@ -1,0 +1,50 @@
+cve_id,property,annotated,predicted,similarity,case
+CVE-2024-21732,consequences,,Execution of arbitrary scripts in the context of the user's session,,only_extracted
+CVE-2023-5877,consequences,,Potential internal network exploitation through SSRF,,only_extracted
+CVE-2023-6000,consequences,,Potential execution of malicious JavaScript code in the context of users who view the popups,,only_extracted
+CVE-2023-6037,consequences,,Potential execution of malicious scripts in the context of other users' sessions,,only_extracted
+CVE-2023-6113,consequences,download said backups later,Unauthorized access and download of backup files,0.8603119850158691,both_present
+CVE-2024-0181,consequences,,Execution of script in the victim's browser leading to potential data theft or session hijacking,,only_extracted
+CVE-2023-50094,consequences,,Commands are executed as root,,only_extracted
+CVE-2023-50096,consequences,can affect user-written code that was derived from a published sample application,MCU code execution,0.667357325553894,both_present
+CVE-2024-0182,consequences,,Potential unauthorized access to the database,,only_extracted
+CVE-2024-0186,consequences,,Potential unauthorized access through weak password recovery mechanism,,only_extracted
+CVE-2023-32831,consequences,,Local information disclosure,,only_extracted
+CVE-2023-32874,consequences,,Remote code execution,,only_extracted
+CVE-2023-32872,consequences,,local escalation of privilege,,only_extracted
+CVE-2023-32878,consequences,,Local information disclosure,,only_extracted
+CVE-2023-32884,consequences,,Local escalation of privilege,,only_extracted
+CVE-2023-32888,consequences,,Remote denial of service,,only_extracted
+CVE-2023-26157,consequences,,Denial of Service (DoS),,only_extracted
+CVE-2023-26159,consequences,"An attacker could exploit this weakness to redirect traffic to a malicious site, potentially leading to information disclosure, phishing attacks, or other security breaches","Information disclosure, phishing attacks, or other security breaches",0.8258448839187622,both_present
+CVE-2023-28583,consequences,,,1.0,both_empty
+CVE-2023-33032,consequences,,Potential unauthorized code execution or system crash,,only_extracted
+CVE-2023-33037,consequences,,Potential unauthorized access or data integrity issues,,only_extracted
+CVE-2023-33108,consequences,,Potential to cause a system crash or execute arbitrary code,,only_extracted
+CVE-2023-33110,consequences,,Memory corruption,,only_extracted
+CVE-2023-43512,consequences,,Service disruption due to memory overflow,,only_extracted
+CVE-2023-47039,consequences,arbitrary code can be executed,Arbitrary code execution with escalated privileges,0.8895503878593445,both_present
+CVE-2023-49142,consequences,multimedia audio crash,Multimedia audio crash,1.0,both_present
+CVE-2023-47858,consequences,allowing a member of one team to get details about the archived public channels of another team,Access to details about archived public channels of another team,0.9533834457397461,both_present
+CVE-2023-6693,consequences,causing an information leak,Information leak by reading process memory and sending it to the wire,0.8714772462844849,both_present
+CVE-2023-6436,consequences,,Allows unauthorized database access and manipulation,,only_extracted
+CVE-2015-10128,consequences,,,1.0,both_empty
+CVE-2017-20188,consequences,,Potential execution of malicious scripts in the context of the user's session,,only_extracted
+CVE-2018-25097,consequences,,potential execution of scripts in the context of the user's browser session,,only_extracted
+CVE-2023-4280,consequences,allows an attacker to access the trusted region of memory from the untrusted region,Unauthorized memory access to trusted region,0.9133723974227905,both_present
+CVE-2024-0193,consequences,escalate their privileges on the system,Privilege escalation on the system,0.9222993850708008,both_present
+CVE-2022-3010,consequences,makes it possible for an attacker to calculate the login credentials,Unauthorized access to the system through SSH,0.7670027613639832,both_present
+CVE-2023-48419,consequences,,Elevation of Privilege,,only_extracted
+CVE-2023-7192,consequences,cause a denial of service (DoS) attack,Denial of service due to a refcount overflow,0.7623950242996216,both_present
+CVE-2023-49794,consequences,can take over root privileges on the device,Malicious apk can gain root permissions,0.8540082573890686,both_present
+CVE-2023-50711,consequences,,Out of bounds memory access through Rust-safe methods,,only_extracted
+CVE-2023-45892,consequences,view sensitive customer information,View sensitive customer information,1.0,both_present
+CVE-2023-47458,consequences,escalate privileges,Attacker can gain elevated privileges,0.8500282764434814,both_present
+CVE-2024-0194,consequences,leads to unrestricted upload,Potential upload of malicious files leading to further compromise,0.8290742635726929,both_present
+CVE-2024-21623,consequences,"allowing an attacker to run commands remotely on the runner, leak secrets, and alter the repository using this workflow","Run commands remotely, leak secrets, alter repository",0.9134017825126648,both_present
+CVE-2024-21627,consequences,,Potential execution of malicious scripts on user browsers,,only_extracted
+CVE-2020-26625,consequences,allows a remote attacker to execute arbitrary web scripts,Remote code execution,0.8273122310638428,both_present
+CVE-2023-50019,consequences,can crash AMF,Crash of AMF,0.9618797302246094,both_present
+CVE-2024-0196,consequences,,Remote execution of injected code,,only_extracted
+CVE-2024-21629,consequences,"This causes smart contracts able to commit state changes, when the parent caller contract receives zero address (which usually indicates that the execution has failed)",Smart contracts commit state changes when execution appears to have failed,0.9290481805801392,both_present
+CVE-2024-21632,consequences,This could lead to account takeover.,Account takeover,0.9330196380615234,both_present

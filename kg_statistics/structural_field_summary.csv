@@ -1,0 +1,7 @@
+node_count,avg_vulnerabilities_per_node,max_vulnerabilities_per_node,p50_vulnerabilities_per_node,p90_vulnerabilities_per_node,field
+1433,3.088625261688765,576.0,1.0,3.0,Vendor
+2633,1.7098366881883782,194.0,1.0,2.0,Software
+2835,1.1107583774250402,11.0,1.0,1.0,SoftwareVersion
+194,21.206185567010305,2509.0,1.0,3.0,NetworkAccess
+617,6.651539708265805,3090.0,1.0,1.0,UserInteraction
+784,4.469387755102039,1521.0,1.0,2.0,Privilege

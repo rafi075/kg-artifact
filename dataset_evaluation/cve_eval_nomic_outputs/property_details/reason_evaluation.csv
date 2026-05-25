@@ -1,0 +1,50 @@
+cve_id,property,annotated,predicted,similarity,case
+CVE-2024-21732,reason,,Insufficient sanitization of input leading to XSS,,only_extracted
+CVE-2023-5877,reason,lacks authorization and authentication for requests,lacks authorization and authentication for requests,1.0,both_present
+CVE-2023-6000,reason,"does not prevent simple visitors from updating existing popups, and injecting raw JavaScript in them",Does not prevent unauthorized users from updating popups and injecting JavaScript,0.9010571241378784,both_present
+CVE-2023-6037,reason,does not sanitise and escape some of its settings,does not sanitise and escape some of its settings,1.0,both_present
+CVE-2023-6113,reason,do not prevent visitors from leaking key information about ongoing backups processes,do not prevent visitors from leaking key information about ongoing backups processes,1.0,both_present
+CVE-2024-0181,reason,,Improper handling of user-input for Firstname/Lastname/Username arguments,,only_extracted
+CVE-2023-50094,reason,,no validation for OS command injection,,only_extracted
+CVE-2023-50096,reason,caused by an StSafeA_ReceiveBytes buffer overflow,buffer overflow in the X-CUBE-SAFEA1 Software Package for STSAFE-A sample applications,0.8569234609603882,both_present
+CVE-2024-0182,reason,,Improper sanitization of username/password inputs,,only_extracted
+CVE-2024-0186,reason,,manipulation leads to weak password recovery,,only_extracted
+CVE-2023-32831,reason,PIN crack due to use of insufficiently random values,use of insufficiently random values,0.8186209201812744,both_present
+CVE-2023-32874,reason,out of bounds write due to a missing bounds check,Possible out of bounds write,0.9518401026725769,both_present
+CVE-2023-32872,reason,out of bounds write due to a missing bounds check,possible out of bounds write due to a missing bounds check,0.9886831641197205,both_present
+CVE-2023-32878,reason,information disclosure due to a missing bounds check,missing bounds check,0.8696818351745605,both_present
+CVE-2023-32884,reason,information disclosure due to an incorrect bounds check,Incorrect bounds check,0.857483983039856,both_present
+CVE-2023-32888,reason,out of bounds write due to a missing bounds check,Missing bounds check,0.9031730890274048,both_present
+CVE-2023-26157,reason,due to an out-of-bounds read involving section->num_pages in decode_r2007.c,out-of-bounds read,0.8033328652381897,both_present
+CVE-2023-26159,reason,due to the improper handling of URLs by the url.parse() function,improper handling of URLs,0.8859008550643921,both_present
+CVE-2023-28583,reason,IPv6 prefix timer object`s lifetime expires,lifetime expires,0.8099603652954102,both_present
+CVE-2023-33032,reason,,Memory corruption during allocation,,only_extracted
+CVE-2023-33037,reason,,Unwrapping the key secs2d and verifying with RPMB data,,only_extracted
+CVE-2023-33108,reason,,Memory corruption when destroying a context,,only_extracted
+CVE-2023-33110,reason,,"Race condition between event callback, PCM close and reset session index",,only_extracted
+CVE-2023-43512,reason,the total amount of memory that is required by the multiple services is greater than the actual size of the services buffer,the total amount of memory required by the multiple services exceeds the actual size of the services buffer,0.994371235370636,both_present
+CVE-2023-47039,reason,"due to path search order issues, Perl initially looks for cmd.exe in the current working directory",Path search order issues causing Perl to look for cmd.exe in the current working directory,0.9744917154312134,both_present
+CVE-2023-49142,reason,,modifying a released pointer,,only_extracted
+CVE-2023-47858,reason,fails to properly verify the permissions needed for viewing archived public channels,fails to properly verify the permissions needed for viewing archived public channels,1.0,both_present
+CVE-2023-6693,reason,,Stack based buffer overflow,,only_extracted
+CVE-2023-6436,reason,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),Improper neutralization of special elements,0.835759162902832,both_present
+CVE-2015-10128,reason,,manipulation of the function royal_prettyphoto_plugin_links,,only_extracted
+CVE-2017-20188,reason,,manipulation of the argument message,,only_extracted
+CVE-2018-25097,reason,,,1.0,both_empty
+CVE-2023-4280,reason,unvalidated input,Unvalidated input,1.0,both_present
+CVE-2024-0193,reason,"If the catchall element is garbage-collected when the pipapo set is removed, the element can be deactivated twice",catchall element is garbage-collected when the pipapo set is removed,0.9635523557662964,both_present
+CVE-2022-3010,reason,"contains predictable credentials for the SSH service, based on the Serial number",predictable credentials based on the Serial number,0.9154305458068848,both_present
+CVE-2023-48419,reason,,Allows Wi-Fi attacks due to lack of sufficient security,,only_extracted
+CVE-2023-7192,reason,due to a refcount overflow,memory leak due to a refcount overflow,0.9137893915176392,both_present
+CVE-2023-49794,reason,the logic of get apk path in KernelSU kernel module can be bypassed,can be bypassed,0.7490662932395935,both_present
+CVE-2023-50711,reason,The deserialization does not check that the length stored in the header matches the flexible array length,Deserialization does not check that the length stored in the header matches the flexible array length,0.9970846176147461,both_present
+CVE-2023-45892,reason,,Improper access control,,only_extracted
+CVE-2023-47458,reason,,lack of permissions control,,only_extracted
+CVE-2024-0194,reason,,unknown processing allows manipulation,,only_extracted
+CVE-2024-21623,reason,,vulnerable to expression injection in Actions,,only_extracted
+CVE-2024-21627,reason,some event attributes are not detected by the `isCleanHTML` method,Event attributes are not detected by the isCleanHTML method,0.9921207427978516,both_present
+CVE-2020-26625,reason,,Improper sanitization of user input in the 'user_id' parameter,,only_extracted
+CVE-2023-50019,reason,due to incorrect error handling of Nudm_UECM_Registration response,incorrect error handling of Nudm_UECM_Registration response,0.989725649356842,both_present
+CVE-2024-0196,reason,,,1.0,both_empty
+CVE-2024-21629,reason,"If `record_external_operation` later fails, this error is returned to the parent call stack, instead of `Succeeded`. Yet, the substate commitment already happened",bogus interactions with the call stack during finalization of CREATE or CREATE2,0.7703527212142944,both_present
+CVE-2024-21632,reason,the implementation did not validate the legitimacy of the `email` attribute of the user nor did it give/document an option to do so,Did not validate the legitimacy of the `email` attribute,0.9433947801589966,both_present

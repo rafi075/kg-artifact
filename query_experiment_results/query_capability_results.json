@@ -1,0 +1,1349 @@
+[
+  {
+    "id": "Q1",
+    "class": "Structural filtering",
+    "plain_language": "Find high-severity vulnerabilities affecting software from a specific vendor within a publication date range.",
+    "params": {
+      "vendor": "microsoft",
+      "start_date": "2020-01-01",
+      "end_date": "2024-12-31",
+      "min_cvss": 7.0,
+      "limit": 10
+    },
+    "runtime_ms": 13.705,
+    "row_count": 10,
+    "rows": [
+      {
+        "cve_id": "CVE-2021-42313",
+        "cvss": 10.0,
+        "published_date": "2021-12-15T14:14:59",
+        "vendor": "Microsoft",
+        "software": [
+          "Microsoft Defender for IoT"
+        ]
+      },
+      {
+        "cve_id": "CVE-2020-1467",
+        "cvss": 10.0,
+        "published_date": "2020-08-17T19:13:04",
+        "vendor": "Microsoft",
+        "software": [
+          "Windows 10 Version 1809"
+        ]
+      },
+      {
+        "cve_id": "CVE-2021-26424",
+        "cvss": 9.9,
+        "published_date": "2021-08-12T18:11:32",
+        "vendor": "Microsoft",
+        "software": [
+          "Windows 10 Version 1809"
+        ]
+      },
+      {
+        "cve_id": "CVE-2021-34458",
+        "cvss": 9.9,
+        "published_date": "2021-07-16T20:19:47",
+        "vendor": "Microsoft",
+        "software": [
+          "Windows Server 2019"
+        ]
+      },
+      {
+        "cve_id": "CVE-2020-1595",
+        "cvss": 9.9,
+        "published_date": "2020-09-11T17:09:27",
+        "vendor": "Microsoft",
+        "software": [
+          "Microsoft SharePoint Enterprise Server 2016"
+        ]
+      },
+      {
+        "cve_id": "CVE-2020-1210",
+        "cvss": 9.9,
+        "published_date": "2020-09-11T17:09:07",
+        "vendor": "Microsoft",
+        "software": [
+          "Microsoft SharePoint Enterprise Server 2016"
+        ]
+      },
+      {
+        "cve_id": "CVE-2024-38199",
+        "cvss": 9.8,
+        "published_date": "2024-08-13T17:29:55.290Z",
+        "vendor": "Microsoft",
+        "software": [
+          "Windows 10 Version 1809"
+        ]
+      },
+      {
+        "cve_id": "CVE-2024-21334",
+        "cvss": 9.8,
+        "published_date": "2024-03-12T16:57:57.499Z",
+        "vendor": "Microsoft",
+        "software": [
+          "System Center Operations Manager (SCOM) 2019"
+        ]
+      },
+      {
+        "cve_id": "CVE-2023-32057",
+        "cvss": 9.8,
+        "published_date": "2023-07-11T17:03:17.264Z",
+        "vendor": "Microsoft",
+        "software": [
+          "Windows 10 Version 1809"
+        ]
+      },
+      {
+        "cve_id": "CVE-2023-24943",
+        "cvss": 9.8,
+        "published_date": "2023-05-09T17:02:55.976Z",
+        "vendor": "Microsoft",
+        "software": [
+          "Windows 10 Version 1809"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q2",
+    "class": "Multi-hop traversal",
+    "plain_language": "For a vendor, retrieve vulnerabilities together with required privilege, network access, and consequences.",
+    "params": {
+      "vendor": "microsoft",
+      "limit": 10
+    },
+    "runtime_ms": 32.225,
+    "row_count": 10,
+    "rows": [
+      {
+        "cve_id": "CVE-2021-42313",
+        "cvss": 10.0,
+        "vendor": "Microsoft",
+        "privilege": [],
+        "network_access": [
+          "remote"
+        ],
+        "consequences": [
+          "Potential unauthorized execution of code on IoT devices"
+        ]
+      },
+      {
+        "cve_id": "CVE-2020-1467",
+        "cvss": 10.0,
+        "vendor": "Microsoft",
+        "privilege": [
+          "authenticated"
+        ],
+        "network_access": [
+          "local"
+        ],
+        "consequences": [
+          "Overwrite a targeted file leading to elevated status"
+        ]
+      },
+      {
+        "cve_id": "CVE-2020-1210",
+        "cvss": 9.9,
+        "vendor": "Microsoft",
+        "privilege": [
+          "authenticated"
+        ],
+        "network_access": [
+          "remote"
+        ],
+        "consequences": [
+          "run arbitrary code in the context of the SharePoint application pool and the SharePoint server farm account"
+        ]
+      },
+      {
+        "cve_id": "CVE-2021-34458",
+        "cvss": 9.9,
+        "vendor": "Microsoft",
+        "privilege": [],
+        "network_access": [
+          "remote"
+        ],
+        "consequences": [
+          "Potential for an attacker to execute arbitrary code on the affected system."
+        ]
+      },
+      {
+        "cve_id": "CVE-2021-26424",
+        "cvss": 9.9,
+        "vendor": "Microsoft",
+        "privilege": [],
+        "network_access": [
+          "remote"
+        ],
+        "consequences": []
+      },
+      {
+        "cve_id": "CVE-2020-1595",
+        "cvss": 9.9,
+        "vendor": "Microsoft",
+        "privilege": [
+          "authenticated"
+        ],
+        "network_access": [
+          "remote"
+        ],
+        "consequences": [
+          "run arbitrary code in the context of the SharePoint application pool and the SharePoint server farm account"
+        ]
+      },
+      {
+        "cve_id": "CVE-2022-30133",
+        "cvss": 9.8,
+        "vendor": "Microsoft",
+        "privilege": [
+          "unauthenticated"
+        ],
+        "network_access": [
+          "remote"
+        ],
+        "consequences": [
+          "Execution of arbitrary code on the affected system"
+        ]
+      },
+      {
+        "cve_id": "CVE-2021-26897",
+        "cvss": 9.8,
+        "vendor": "Microsoft",
+        "privilege": [],
+        "network_access": [
+          "remote"
+        ],
+        "consequences": [
+          "Arbitrary code execution on the server"
+        ]
+      },
+      {
+        "cve_id": "CVE-2022-22012",
+        "cvss": 9.8,
+        "vendor": "Microsoft",
+        "privilege": [],
+        "network_access": [
+          "remote"
+        ],
+        "consequences": [
+          "Potential for an attacker to execute arbitrary code on the system"
+        ]
+      },
+      {
+        "cve_id": "CVE-2022-29130",
+        "cvss": 9.8,
+        "vendor": "Microsoft",
+        "privilege": [
+          "typically, no authentication required"
+        ],
+        "network_access": [
+          "remote"
+        ],
+        "consequences": [
+          "Attacker can execute arbitrary code on the vulnerable system"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q3",
+    "class": "Semantic neighborhood search",
+    "plain_language": "Given an attacker-action keyword, retrieve distinct CVEs whose attacker actions are semantically close to the matched seed action, while emphasizing non-exact semantic matches rather than repeated keyword matches.",
+    "params": {
+      "keyword": "execute arbitrary code",
+      "sim_threshold": 0.9,
+      "limit": 10
+    },
+    "runtime_ms": 497.554,
+    "row_count": 10,
+    "rows": [
+      {
+        "cve_id": "CVE-2023-47795",
+        "cvss": 9.0,
+        "seed_action": "inject arbitrary web script or HTML via a crafted payload",
+        "semantically_matched_action": "Inject arbitrary web script or HTML via crafted payload",
+        "similarity": 0.9993800770919202,
+        "keyword_score": 0.851526141166687
+      },
+      {
+        "cve_id": "CVE-2023-42629",
+        "cvss": 9.0,
+        "seed_action": "Inject arbitrary web script or HTML via crafted payload",
+        "semantically_matched_action": "inject arbitrary web script or HTML via a crafted payload",
+        "similarity": 0.9993800770919202,
+        "keyword_score": 0.8957104682922363
+      },
+      {
+        "cve_id": "CVE-2022-1378",
+        "cvss": 9.8,
+        "seed_action": "Inject arbitrary SQL queries, retrieve and modify database contents, execute system commands",
+        "semantically_matched_action": "inject arbitrary SQL queries, retrieve and modify database contents, and execute system commands",
+        "similarity": 0.9992857287312481,
+        "keyword_score": 1.595153570175171
+      },
+      {
+        "cve_id": "CVE-2022-26065",
+        "cvss": 9.8,
+        "seed_action": "Inject arbitrary SQL queries, retrieve and modify database contents, execute system commands",
+        "semantically_matched_action": "inject arbitrary SQL queries, retrieve and modify database contents, and execute system commands",
+        "similarity": 0.9992857287312481,
+        "keyword_score": 1.595153570175171
+      },
+      {
+        "cve_id": "CVE-2022-1371",
+        "cvss": 9.8,
+        "seed_action": "inject arbitrary SQL queries, retrieve and modify database contents, and execute system commands",
+        "semantically_matched_action": "Inject arbitrary SQL queries, retrieve and modify database contents, execute system commands",
+        "similarity": 0.9992857287312481,
+        "keyword_score": 1.526610255241394
+      },
+      {
+        "cve_id": "CVE-2022-25980",
+        "cvss": 9.8,
+        "seed_action": "inject arbitrary SQL queries, retrieve and modify database contents, and execute system commands",
+        "semantically_matched_action": "Inject arbitrary SQL queries, retrieve and modify database contents, execute system commands",
+        "similarity": 0.9992857287312481,
+        "keyword_score": 1.526610255241394
+      },
+      {
+        "cve_id": "CVE-2022-26069",
+        "cvss": 9.8,
+        "seed_action": "Inject arbitrary SQL queries, retrieve and modify database contents, execute system commands",
+        "semantically_matched_action": "inject arbitrary SQL queries, retrieve and modify database contents, and execute system commands",
+        "similarity": 0.9992857287312481,
+        "keyword_score": 1.595153570175171
+      },
+      {
+        "cve_id": "CVE-2022-1372",
+        "cvss": 9.8,
+        "seed_action": "inject arbitrary SQL queries, retrieve and modify database contents, and execute system commands",
+        "semantically_matched_action": "Inject arbitrary SQL queries, retrieve and modify database contents, execute system commands",
+        "similarity": 0.9992857287312481,
+        "keyword_score": 1.526610255241394
+      },
+      {
+        "cve_id": "CVE-2022-27175",
+        "cvss": 9.8,
+        "seed_action": "Inject SQL queries, retrieve and modify database contents, and execute system commands",
+        "semantically_matched_action": "inject SQL queries, retrieve and modify database contents, execute system commands",
+        "similarity": 0.9992201818986306,
+        "keyword_score": 0.8200929164886475
+      },
+      {
+        "cve_id": "CVE-2022-1367",
+        "cvss": 9.8,
+        "seed_action": "inject SQL queries, retrieve and modify database contents, execute system commands",
+        "semantically_matched_action": "Inject SQL queries, retrieve and modify database contents, and execute system commands",
+        "similarity": 0.9992201818986306,
+        "keyword_score": 0.8586452007293701
+      }
+    ]
+  },
+  {
+    "id": "Q4",
+    "class": "Similar-vulnerability discovery",
+    "plain_language": "Find unique vulnerability pairs whose reason, attacker action, and consequence are semantically similar, and retain only the strongest semantic explanation for each CVE pair.",
+    "params": {
+      "sim_threshold": 0.9,
+      "limit": 10
+    },
+    "runtime_ms": 596.713,
+    "row_count": 10,
+    "rows": [
+      {
+        "cve_1": "CVE-2022-2717",
+        "cve_2": "CVE-2024-1797",
+        "reason_1": "insufficient escaping on user supplied parameter and lack of sufficient preparation on the existing SQL query",
+        "reason_2": "insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query",
+        "reason_sim": 0.9996623502138775,
+        "action_1": "append additional SQL queries into existing ones",
+        "action_2": "append additional SQL queries into existing queries",
+        "action_sim": 0.9971082620523517,
+        "consequence_1": "extraction of sensitive information from the database",
+        "consequence_2": "extract sensitive information from the database",
+        "consequence_sim": 0.995074257809683,
+        "avg_similarity": 0.9972816233586373
+      },
+      {
+        "cve_1": "CVE-2022-2717",
+        "cve_2": "CVE-2024-6338",
+        "reason_1": "insufficient escaping on user supplied parameter and lack of sufficient preparation on the existing SQL query",
+        "reason_2": "insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query",
+        "reason_sim": 0.9996623502138775,
+        "action_1": "append additional SQL queries into existing ones",
+        "action_2": "append additional SQL queries into existing queries",
+        "action_sim": 0.9971082620523517,
+        "consequence_1": "extraction of sensitive information from the database",
+        "consequence_2": "extract sensitive information from the database",
+        "consequence_sim": 0.995074257809683,
+        "avg_similarity": 0.9972816233586373
+      },
+      {
+        "cve_1": "CVE-2022-2717",
+        "cve_2": "CVE-2024-1981",
+        "reason_1": "insufficient escaping on user supplied parameter and lack of sufficient preparation on the existing SQL query",
+        "reason_2": "insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query",
+        "reason_sim": 0.9996623502138775,
+        "action_1": "append additional SQL queries into existing ones",
+        "action_2": "append additional SQL queries into existing queries",
+        "action_sim": 0.9971082620523517,
+        "consequence_1": "extraction of sensitive information from the database",
+        "consequence_2": "extract sensitive information from the database",
+        "consequence_sim": 0.995074257809683,
+        "avg_similarity": 0.9972816233586373
+      },
+      {
+        "cve_1": "CVE-2022-2717",
+        "cve_2": "CVE-2024-0610",
+        "reason_1": "insufficient escaping on user supplied parameter and lack of sufficient preparation on the existing SQL query",
+        "reason_2": "insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query",
+        "reason_sim": 0.9996623502138775,
+        "action_1": "append additional SQL queries into existing ones",
+        "action_2": "Append additional SQL queries into already existing queries",
+        "action_sim": 0.9968060539038565,
+        "consequence_1": "extraction of sensitive information from the database",
+        "consequence_2": "extract sensitive information from the database",
+        "consequence_sim": 0.995074257809683,
+        "avg_similarity": 0.9971808873091389
+      },
+      {
+        "cve_1": "CVE-2022-2717",
+        "cve_2": "CVE-2024-0956",
+        "reason_1": "insufficient escaping on user supplied parameter and lack of sufficient preparation on the existing SQL query",
+        "reason_2": "insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query",
+        "reason_sim": 0.9996623502138775,
+        "action_1": "append additional SQL queries into existing ones",
+        "action_2": "Append additional SQL queries into already existing queries",
+        "action_sim": 0.9968060539038565,
+        "consequence_1": "extraction of sensitive information from the database",
+        "consequence_2": "extract sensitive information from the database",
+        "consequence_sim": 0.995074257809683,
+        "avg_similarity": 0.9971808873091389
+      },
+      {
+        "cve_1": "CVE-2022-2717",
+        "cve_2": "CVE-2024-1751",
+        "reason_1": "insufficient escaping on user supplied parameter and lack of sufficient preparation on the existing SQL query",
+        "reason_2": "insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query",
+        "reason_sim": 0.9996623502138775,
+        "action_1": "append additional SQL queries into existing ones",
+        "action_2": "Append additional SQL queries into already existing queries",
+        "action_sim": 0.9968060539038565,
+        "consequence_1": "extraction of sensitive information from the database",
+        "consequence_2": "extract sensitive information from the database",
+        "consequence_sim": 0.995074257809683,
+        "avg_similarity": 0.9971808873091389
+      },
+      {
+        "cve_1": "CVE-2023-5434",
+        "cve_2": "CVE-2024-7349",
+        "reason_1": "insufficient escaping and lack of sufficient preparation on the SQL query",
+        "reason_2": "insufficient escaping and lack of sufficient preparation on the existing SQL query",
+        "reason_sim": 0.9968620651229848,
+        "action_1": "append additional SQL queries into existing queries",
+        "action_2": "Append additional SQL queries into already existing queries",
+        "action_sim": 0.9993002056787312,
+        "consequence_1": "extraction of sensitive information from the database",
+        "consequence_2": "extract sensitive information from the database",
+        "consequence_sim": 0.995074257809683,
+        "avg_similarity": 0.9970788428704663
+      },
+      {
+        "cve_1": "CVE-2022-2717",
+        "cve_2": "CVE-2022-4290",
+        "reason_1": "insufficient escaping on user supplied parameter and lack of sufficient preparation on the existing SQL query",
+        "reason_2": "insufficient escaping on the user-supplied parameter and lack of preparation on the SQL query",
+        "reason_sim": 0.9972071988628579,
+        "action_1": "append additional SQL queries into existing ones",
+        "action_2": "append additional SQL queries into existing queries",
+        "action_sim": 0.9971082620523517,
+        "consequence_1": "extraction of sensitive information from the database",
+        "consequence_2": "extract sensitive information from the database",
+        "consequence_sim": 0.995074257809683,
+        "avg_similarity": 0.9964632395749642
+      },
+      {
+        "cve_1": "CVE-2020-1530",
+        "cve_2": "CVE-2020-1536",
+        "reason_1": "improper memory handling",
+        "reason_2": "improper handling of memory",
+        "reason_sim": 0.9966724563251679,
+        "action_1": "gain execution on the victim system and run a specially crafted application",
+        "action_2": "gain execution on the victim system and run a crafted application",
+        "action_sim": 0.9941193614611386,
+        "consequence_1": "Attacker could elevate privileges on the system",
+        "consequence_2": "Attacker could elevate their privileges on the system",
+        "consequence_sim": 0.9977944454617895,
+        "avg_similarity": 0.9961954210826987
+      },
+      {
+        "cve_1": "CVE-2023-2237",
+        "cve_2": "CVE-2023-5434",
+        "reason_1": "insufficient escaping and lack of sufficient preparation on SQL query",
+        "reason_2": "insufficient escaping and lack of sufficient preparation on the SQL query",
+        "reason_sim": 0.9990519614705486,
+        "action_1": "append additional SQL queries",
+        "action_2": "append additional SQL queries into existing queries",
+        "action_sim": 0.9911666450532717,
+        "consequence_1": "extract sensitive information from the database",
+        "consequence_2": "extraction of sensitive information from the database",
+        "consequence_sim": 0.995074257809683,
+        "avg_similarity": 0.9950976214445011
+      }
+    ]
+  },
+  {
+    "id": "Q5",
+    "class": "Context-filtered semantic-cluster correlation",
+    "plain_language": "Find frequent semantic Reason--Consequence correlations by first building query-context-filtered temporary WCC clusters for Reason and Consequence nodes, then ranking observed cluster pairs by distinct CVE support.",
+    "params": {
+      "vendor": "microsoft",
+      "software": null,
+      "from_date": "2020-01-01T00:00:00",
+      "to_date": "2024-12-31T23:59:59",
+      "threshold": 0.92,
+      "min_support": 3,
+      "limit": 10
+    },
+    "runtime_ms": 2228.875,
+    "row_count": 8,
+    "rows": [
+      {
+        "reason_cluster": 21,
+        "consequence_cluster": 0,
+        "representative_reason": "improper memory handling",
+        "representative_consequence": "Elevate privileges on the victim system",
+        "support": 61,
+        "avg_cvss": 7.62,
+        "max_cvss": 8.8,
+        "reason_examples": [
+          "improper memory handling",
+          "improper handling of objects in memory",
+          "improper handling of memory",
+          "mishandling objects in memory"
+        ],
+        "consequence_examples": [
+          "Elevate privileges on the victim system",
+          "Execute code with elevated permissions",
+          "Run arbitrary code in the context of the Local System Account",
+          "Gain elevated privileges on the target operating system"
+        ],
+        "cve_examples": [
+          "CVE-2020-1474",
+          "CVE-2020-16954",
+          "CVE-2020-1378",
+          "CVE-2020-0782",
+          "CVE-2020-16920",
+          "CVE-2020-16968",
+          "CVE-2020-16892",
+          "CVE-2020-1584"
+        ]
+      },
+      {
+        "reason_cluster": 1,
+        "consequence_cluster": 0,
+        "representative_reason": "Unknown security feature bypass",
+        "representative_consequence": "Allows bypass of intended security protections",
+        "support": 11,
+        "avg_cvss": 7.26,
+        "max_cvss": 8.2,
+        "reason_examples": [
+          "Unknown security feature bypass",
+          "Security feature bypass",
+          "Security feature bypass vulnerability",
+          "Bypass of a security feature"
+        ],
+        "consequence_examples": [
+          "Allows bypass of intended security protections",
+          "Potential unauthorized actions bypassing security features",
+          "Potential unauthorized actions due to the bypass of security features",
+          "Security policies intended to protect data access may be circumvented"
+        ],
+        "cve_examples": [
+          "CVE-2024-28896",
+          "CVE-2023-36021",
+          "CVE-2023-33170",
+          "CVE-2021-34469",
+          "CVE-2024-43487",
+          "CVE-2024-20665",
+          "CVE-2024-26171",
+          "CVE-2020-17130"
+        ]
+      },
+      {
+        "reason_cluster": 3,
+        "consequence_cluster": 0,
+        "representative_reason": "Unknown from given description",
+        "representative_consequence": "Attacker gains higher privileges on the system",
+        "support": 7,
+        "avg_cvss": 8.09,
+        "max_cvss": 8.8,
+        "reason_examples": [
+          "Unknown from given description",
+          "Not specified in the description",
+          "The specific reason is not detailed in the description.",
+          "Unspecified in the description"
+        ],
+        "consequence_examples": [
+          "Attacker gains higher privileges on the system",
+          "Execution of arbitrary code",
+          "An attacker could gain elevated privileges on the system.",
+          "Gain higher privileges on the affected system"
+        ],
+        "cve_examples": [
+          "CVE-2024-21417",
+          "CVE-2024-38142",
+          "CVE-2024-21398",
+          "CVE-2024-38034",
+          "CVE-2021-40452",
+          "CVE-2020-17070",
+          "CVE-2022-37987"
+        ]
+      },
+      {
+        "reason_cluster": 30,
+        "consequence_cluster": 0,
+        "representative_reason": "fails to check the source markup of an application package",
+        "representative_consequence": "run arbitrary code in the context of the SharePoint application pool and the SharePoint server farm account",
+        "support": 5,
+        "avg_cvss": 8.84,
+        "max_cvss": 9.9,
+        "reason_examples": [
+          "fails to check the source markup of an application package",
+          "software fails to check the source markup of an application package"
+        ],
+        "consequence_examples": [
+          "run arbitrary code in the context of the SharePoint application pool and the SharePoint server farm account",
+          "Arbitrary code execution in the context of the SharePoint application pool and server farm account"
+        ],
+        "cve_examples": [
+          "CVE-2020-16952",
+          "CVE-2020-1210",
+          "CVE-2020-1576",
+          "CVE-2020-1453",
+          "CVE-2020-16951"
+        ]
+      },
+      {
+        "reason_cluster": 38,
+        "consequence_cluster": 0,
+        "representative_reason": "does not properly sanitize a specially crafted web request",
+        "representative_consequence": "Attacker can run script in the user's security context, read unauthorized content, impersonate user, change permissions, delete content, inject malicious content",
+        "support": 5,
+        "avg_cvss": 8.22,
+        "max_cvss": 8.7,
+        "reason_examples": [
+          "does not properly sanitize a specially crafted web request",
+          "SharePoint Server does not properly sanitize a specially crafted request",
+          "does not properly sanitize specially crafted web requests"
+        ],
+        "consequence_examples": [
+          "Attacker can run script in the user's security context, read unauthorized content, impersonate user, change permissions, delete content, inject malicious content",
+          "read unauthorized content, use victim's identity to take actions, change permissions, delete content, inject malicious content in the browser",
+          "Perform cross-site scripting attacks, read unauthorized content, use victim's identity, change permissions, delete content, steal sensitive information, inject malicious content",
+          "perform cross-site scripting attacks, read unauthorized content, take actions on behalf of the user, inject malicious content in browser"
+        ],
+        "cve_examples": [
+          "CVE-2020-16946",
+          "CVE-2020-16945",
+          "CVE-2020-16872",
+          "CVE-2020-1198",
+          "CVE-2020-16944"
+        ]
+      },
+      {
+        "reason_cluster": 18,
+        "consequence_cluster": 0,
+        "representative_reason": "Improper Privilege Management",
+        "representative_consequence": "Gain higher privileges on the system",
+        "support": 4,
+        "avg_cvss": 7.73,
+        "max_cvss": 7.8,
+        "reason_examples": [
+          "Improper Privilege Management",
+          "Design or implementation flaw allowing elevation of privilege",
+          "Insufficient privilege controls",
+          "insufficient privilege separation or sandboxing"
+        ],
+        "consequence_examples": [
+          "Gain higher privileges on the system",
+          "Attacker gains elevated privileges on the system",
+          "Attacker gains higher privileges, potentially leading to complete system compromise",
+          "Gain elevated privileges potentially leading to full system compromise"
+        ],
+        "cve_examples": [
+          "CVE-2021-40476",
+          "CVE-2020-17074",
+          "CVE-2021-25195",
+          "CVE-2023-29346"
+        ]
+      },
+      {
+        "reason_cluster": 61,
+        "consequence_cluster": 0,
+        "representative_reason": "Vulnerability in code execution",
+        "representative_consequence": "Allows execution of arbitrary code on the server",
+        "support": 3,
+        "avg_cvss": 8.47,
+        "max_cvss": 8.8,
+        "reason_examples": [
+          "Vulnerability in code execution",
+          "Vulnerability in the Word software allowing remote code execution"
+        ],
+        "consequence_examples": [
+          "Allows execution of arbitrary code on the server",
+          "Remote attackers could run arbitrary code on the affected system, potentially compromising system's integrity",
+          "Arbitrary code execution on the target system"
+        ],
+        "cve_examples": [
+          "CVE-2021-1667",
+          "CVE-2022-41031",
+          "CVE-2024-35256"
+        ]
+      },
+      {
+        "reason_cluster": 24,
+        "consequence_cluster": 0,
+        "representative_reason": "Unsigned code execution allowed",
+        "representative_consequence": "Unauthorized code execution on the device",
+        "support": 3,
+        "avg_cvss": 7.3,
+        "max_cvss": 7.3,
+        "reason_examples": [
+          "Unsigned code execution allowed",
+          "Allows execution of code that is not signed, potentially bypassing security mechanisms",
+          "Code is unsigned"
+        ],
+        "consequence_examples": [
+          "Unauthorized code execution on the device",
+          "Potential unauthorized control or execution of code on the device",
+          "Possibility of running malicious code on the device"
+        ],
+        "cve_examples": [
+          "CVE-2020-16994",
+          "CVE-2020-16991",
+          "CVE-2020-16987"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q6",
+    "class": "Cross-vendor semantic transfer",
+    "plain_language": "Find vulnerabilities from different vendors that share semantically similar exploitation mechanisms.",
+    "params": {
+      "sim_threshold": 0.92,
+      "limit": 10
+    },
+    "runtime_ms": 628.649,
+    "row_count": 10,
+    "rows": [
+      {
+        "cve_1": "CVE-2024-1751",
+        "vendor_1": "Themeum",
+        "cve_2": "CVE-2022-4290",
+        "vendor_2": "karevn",
+        "reason_sim": 0.9976049585361039,
+        "action_sim": 0.9993002056787312,
+        "avg_similarity": 0.9984525821074175
+      },
+      {
+        "cve_1": "CVE-2024-0956",
+        "vendor_1": "wedevs",
+        "cve_2": "CVE-2022-4290",
+        "vendor_2": "karevn",
+        "reason_sim": 0.9976049585361039,
+        "action_sim": 0.9993002056787312,
+        "avg_similarity": 0.9984525821074175
+      },
+      {
+        "cve_1": "CVE-2022-4290",
+        "vendor_1": "karevn",
+        "cve_2": "CVE-2024-0610",
+        "vendor_2": "enartia",
+        "reason_sim": 0.9976049585361039,
+        "action_sim": 0.9993002056787312,
+        "avg_similarity": 0.9984525821074175
+      },
+      {
+        "cve_1": "CVE-2024-1797",
+        "vendor_1": "alimir",
+        "cve_2": "CVE-2022-2717",
+        "vendor_2": "beardev",
+        "reason_sim": 0.9996623502138775,
+        "action_sim": 0.9971082620523517,
+        "avg_similarity": 0.9983853061331146
+      },
+      {
+        "cve_1": "CVE-2022-2717",
+        "vendor_1": "beardev",
+        "cve_2": "CVE-2024-7857",
+        "vendor_2": "maxfoundry",
+        "reason_sim": 0.9996623502138775,
+        "action_sim": 0.9971082620523517,
+        "avg_similarity": 0.9983853061331146
+      },
+      {
+        "cve_1": "CVE-2024-6338",
+        "vendor_1": "foliovision",
+        "cve_2": "CVE-2022-2717",
+        "vendor_2": "beardev",
+        "reason_sim": 0.9996623502138775,
+        "action_sim": 0.9971082620523517,
+        "avg_similarity": 0.9983853061331146
+      },
+      {
+        "cve_1": "CVE-2024-2344",
+        "vendor_1": "ThemeFusion",
+        "cve_2": "CVE-2022-2717",
+        "vendor_2": "beardev",
+        "reason_sim": 0.9996623502138775,
+        "action_sim": 0.9971082620523517,
+        "avg_similarity": 0.9983853061331146
+      },
+      {
+        "cve_1": "CVE-2024-1981",
+        "vendor_1": "wpvividplugins",
+        "cve_2": "CVE-2022-2717",
+        "vendor_2": "beardev",
+        "reason_sim": 0.9996623502138775,
+        "action_sim": 0.9971082620523517,
+        "avg_similarity": 0.9983853061331146
+      },
+      {
+        "cve_1": "CVE-2022-2717",
+        "vendor_1": "beardev",
+        "cve_2": "CVE-2024-0610",
+        "vendor_2": "enartia",
+        "reason_sim": 0.9996623502138775,
+        "action_sim": 0.9968060539038565,
+        "avg_similarity": 0.998234202058867
+      },
+      {
+        "cve_1": "CVE-2024-1751",
+        "vendor_1": "Themeum",
+        "cve_2": "CVE-2022-2717",
+        "vendor_2": "beardev",
+        "reason_sim": 0.9996623502138775,
+        "action_sim": 0.9968060539038565,
+        "avg_similarity": 0.998234202058867
+      }
+    ]
+  },
+  {
+    "id": "Q7",
+    "class": "Context-filtered semantic ranking",
+    "plain_language": "For Microsoft vulnerabilities published in 2024, create a temporary Reason-only semantic projection restricted to the filtered CVE set, run WCC over that filtered projection, and rank reason components by distinct CVE count.",
+    "params": {
+      "vendor": "microsoft",
+      "from_date": "2020-01-01T00:00:00",
+      "to_date": "2024-12-31T23:59:59",
+      "threshold": 0.92,
+      "limit": 10
+    },
+    "runtime_ms": 105.122,
+    "row_count": 10,
+    "rows": [
+      {
+        "reason_cluster": 21,
+        "representative_reason": "improper handling of objects in memory",
+        "representative_reason_vuln_count": 14,
+        "total_cve_count": 55,
+        "reason_node_count": 33,
+        "avg_cvss": 7.61,
+        "max_cvss": 8.8,
+        "top_reason_members": [
+          {
+            "reason": "improper handling of objects in memory",
+            "max_cvss": 7.8,
+            "freq": 14,
+            "avg_cvss": 7.56,
+            "cves": [
+              "CVE-2020-0782",
+              "CVE-2020-16968",
+              "CVE-2020-16892",
+              "CVE-2020-16915",
+              "CVE-2020-0911",
+              "CVE-2020-1558"
+            ]
+          },
+          {
+            "reason": "improper memory handling",
+            "max_cvss": 7.8,
+            "freq": 7,
+            "avg_cvss": 7.8,
+            "cves": [
+              "CVE-2020-1521",
+              "CVE-2020-0766",
+              "CVE-2020-1535",
+              "CVE-2020-1538",
+              "CVE-2020-1549",
+              "CVE-2020-1530"
+            ]
+          },
+          {
+            "reason": "improper handling of memory",
+            "max_cvss": 7.8,
+            "freq": 5,
+            "avg_cvss": 7.8,
+            "cves": [
+              "CVE-2020-1516",
+              "CVE-2020-1536",
+              "CVE-2020-1546",
+              "CVE-2020-1540",
+              "CVE-2020-1519"
+            ]
+          },
+          {
+            "reason": "improper handling of file operations",
+            "max_cvss": 7.8,
+            "freq": 4,
+            "avg_cvss": 7.8,
+            "cves": [
+              "CVE-2020-1534",
+              "CVE-2020-0764",
+              "CVE-2020-1537",
+              "CVE-2020-1511"
+            ]
+          },
+          {
+            "reason": "Fails to properly handle objects in memory",
+            "max_cvss": 7.8,
+            "freq": 4,
+            "avg_cvss": 7.53,
+            "cves": [
+              "CVE-2020-16931",
+              "CVE-2020-1047",
+              "CVE-2020-1245",
+              "CVE-2020-16947"
+            ]
+          }
+        ],
+        "example_cves": [
+          "CVE-2020-0782",
+          "CVE-2020-16968",
+          "CVE-2020-16892",
+          "CVE-2020-16915",
+          "CVE-2020-0911",
+          "CVE-2020-1558",
+          "CVE-2020-1521",
+          "CVE-2020-0766"
+        ]
+      },
+      {
+        "reason_cluster": 1,
+        "representative_reason": "Security feature bypass",
+        "representative_reason_vuln_count": 4,
+        "total_cve_count": 15,
+        "reason_node_count": 10,
+        "avg_cvss": 7.31,
+        "max_cvss": 8.2,
+        "top_reason_members": [
+          {
+            "reason": "Security feature bypass",
+            "max_cvss": 8.1,
+            "freq": 4,
+            "avg_cvss": 7.3,
+            "cves": [
+              "CVE-2024-28896",
+              "CVE-2023-33170",
+              "CVE-2024-20665",
+              "CVE-2024-21427"
+            ]
+          },
+          {
+            "reason": "Security feature can be bypassed",
+            "max_cvss": 7.3,
+            "freq": 2,
+            "avg_cvss": 7.0,
+            "cves": [
+              "CVE-2022-33631",
+              "CVE-2024-28903"
+            ]
+          },
+          {
+            "reason": "Bypass vulnerability",
+            "max_cvss": 6.7,
+            "freq": 2,
+            "avg_cvss": 6.6,
+            "cves": [
+              "CVE-2024-26171",
+              "CVE-2020-17130"
+            ]
+          },
+          {
+            "reason": "Unknown security feature bypass",
+            "max_cvss": 8.2,
+            "freq": 1,
+            "avg_cvss": 8.2,
+            "cves": [
+              "CVE-2021-34469"
+            ]
+          },
+          {
+            "reason": "Security feature bypass vulnerability",
+            "max_cvss": 8.1,
+            "freq": 1,
+            "avg_cvss": 8.1,
+            "cves": [
+              "CVE-2021-33781"
+            ]
+          }
+        ],
+        "example_cves": [
+          "CVE-2024-28896",
+          "CVE-2023-33170",
+          "CVE-2024-20665",
+          "CVE-2024-21427",
+          "CVE-2022-33631",
+          "CVE-2024-28903",
+          "CVE-2024-26171",
+          "CVE-2020-17130"
+        ]
+      },
+      {
+        "reason_cluster": 3,
+        "representative_reason": "Unspecified in the description",
+        "representative_reason_vuln_count": 2,
+        "total_cve_count": 8,
+        "reason_node_count": 7,
+        "avg_cvss": 7.89,
+        "max_cvss": 8.8,
+        "top_reason_members": [
+          {
+            "reason": "Unspecified in the description",
+            "max_cvss": 7.8,
+            "freq": 2,
+            "avg_cvss": 7.15,
+            "cves": [
+              "CVE-2024-38034",
+              "CVE-2021-33783"
+            ]
+          },
+          {
+            "reason": "Unknown from given description",
+            "max_cvss": 8.8,
+            "freq": 1,
+            "avg_cvss": 8.8,
+            "cves": [
+              "CVE-2024-21417"
+            ]
+          },
+          {
+            "reason": "Not specified in the description",
+            "max_cvss": 8.8,
+            "freq": 1,
+            "avg_cvss": 8.8,
+            "cves": [
+              "CVE-2024-21398"
+            ]
+          },
+          {
+            "reason": "The specific reason is not detailed in the description.",
+            "max_cvss": 7.8,
+            "freq": 1,
+            "avg_cvss": 7.8,
+            "cves": [
+              "CVE-2024-38142"
+            ]
+          },
+          {
+            "reason": "Undisclosed",
+            "max_cvss": 7.8,
+            "freq": 1,
+            "avg_cvss": 7.8,
+            "cves": [
+              "CVE-2021-40452"
+            ]
+          }
+        ],
+        "example_cves": [
+          "CVE-2024-38034",
+          "CVE-2021-33783",
+          "CVE-2024-21417",
+          "CVE-2024-21398",
+          "CVE-2024-38142",
+          "CVE-2021-40452",
+          "CVE-2020-17070",
+          "CVE-2022-37987"
+        ]
+      },
+      {
+        "reason_cluster": 30,
+        "representative_reason": "fails to check the source markup of an application package",
+        "representative_reason_vuln_count": 4,
+        "total_cve_count": 5,
+        "reason_node_count": 2,
+        "avg_cvss": 8.84,
+        "max_cvss": 9.9,
+        "top_reason_members": [
+          {
+            "reason": "fails to check the source markup of an application package",
+            "max_cvss": 9.9,
+            "freq": 4,
+            "avg_cvss": 8.9,
+            "cves": [
+              "CVE-2020-16952",
+              "CVE-2020-1210",
+              "CVE-2020-1576",
+              "CVE-2020-16951"
+            ]
+          },
+          {
+            "reason": "software fails to check the source markup of an application package",
+            "max_cvss": 8.6,
+            "freq": 1,
+            "avg_cvss": 8.6,
+            "cves": [
+              "CVE-2020-1453"
+            ]
+          }
+        ],
+        "example_cves": [
+          "CVE-2020-16952",
+          "CVE-2020-1210",
+          "CVE-2020-1576",
+          "CVE-2020-16951",
+          "CVE-2020-1453"
+        ]
+      },
+      {
+        "reason_cluster": 38,
+        "representative_reason": "does not properly sanitize a specially crafted web request",
+        "representative_reason_vuln_count": 3,
+        "total_cve_count": 5,
+        "reason_node_count": 3,
+        "avg_cvss": 8.22,
+        "max_cvss": 8.7,
+        "top_reason_members": [
+          {
+            "reason": "does not properly sanitize a specially crafted web request",
+            "max_cvss": 8.7,
+            "freq": 3,
+            "avg_cvss": 8.33,
+            "cves": [
+              "CVE-2020-16946",
+              "CVE-2020-16945",
+              "CVE-2020-16872"
+            ]
+          },
+          {
+            "reason": "SharePoint Server does not properly sanitize a specially crafted request",
+            "max_cvss": 8.7,
+            "freq": 1,
+            "avg_cvss": 8.7,
+            "cves": [
+              "CVE-2020-16944"
+            ]
+          },
+          {
+            "reason": "does not properly sanitize specially crafted web requests",
+            "max_cvss": 7.4,
+            "freq": 1,
+            "avg_cvss": 7.4,
+            "cves": [
+              "CVE-2020-1198"
+            ]
+          }
+        ],
+        "example_cves": [
+          "CVE-2020-16946",
+          "CVE-2020-16945",
+          "CVE-2020-16872",
+          "CVE-2020-16944",
+          "CVE-2020-1198"
+        ]
+      },
+      {
+        "reason_cluster": 18,
+        "representative_reason": "Improper Privilege Management",
+        "representative_reason_vuln_count": 2,
+        "total_cve_count": 5,
+        "reason_node_count": 4,
+        "avg_cvss": 7.58,
+        "max_cvss": 7.8,
+        "top_reason_members": [
+          {
+            "reason": "Improper Privilege Management",
+            "max_cvss": 7.8,
+            "freq": 2,
+            "avg_cvss": 7.4,
+            "cves": [
+              "CVE-2020-1488",
+              "CVE-2020-17074"
+            ]
+          },
+          {
+            "reason": "Design or implementation flaw allowing elevation of privilege",
+            "max_cvss": 7.8,
+            "freq": 1,
+            "avg_cvss": 7.8,
+            "cves": [
+              "CVE-2021-25195"
+            ]
+          },
+          {
+            "reason": "Insufficient privilege controls",
+            "max_cvss": 7.8,
+            "freq": 1,
+            "avg_cvss": 7.8,
+            "cves": [
+              "CVE-2023-29346"
+            ]
+          },
+          {
+            "reason": "insufficient privilege separation or sandboxing",
+            "max_cvss": 7.5,
+            "freq": 1,
+            "avg_cvss": 7.5,
+            "cves": [
+              "CVE-2021-40476"
+            ]
+          }
+        ],
+        "example_cves": [
+          "CVE-2020-1488",
+          "CVE-2020-17074",
+          "CVE-2021-25195",
+          "CVE-2023-29346",
+          "CVE-2021-40476"
+        ]
+      },
+      {
+        "reason_cluster": 61,
+        "representative_reason": "Vulnerability in code execution",
+        "representative_reason_vuln_count": 2,
+        "total_cve_count": 3,
+        "reason_node_count": 2,
+        "avg_cvss": 8.47,
+        "max_cvss": 8.8,
+        "top_reason_members": [
+          {
+            "reason": "Vulnerability in code execution",
+            "max_cvss": 8.8,
+            "freq": 2,
+            "avg_cvss": 8.8,
+            "cves": [
+              "CVE-2021-1667",
+              "CVE-2024-35256"
+            ]
+          },
+          {
+            "reason": "Vulnerability in the Word software allowing remote code execution",
+            "max_cvss": 7.8,
+            "freq": 1,
+            "avg_cvss": 7.8,
+            "cves": [
+              "CVE-2022-41031"
+            ]
+          }
+        ],
+        "example_cves": [
+          "CVE-2021-1667",
+          "CVE-2024-35256",
+          "CVE-2022-41031"
+        ]
+      },
+      {
+        "reason_cluster": 24,
+        "representative_reason": "Unsigned code execution allowed",
+        "representative_reason_vuln_count": 1,
+        "total_cve_count": 3,
+        "reason_node_count": 3,
+        "avg_cvss": 7.3,
+        "max_cvss": 7.3,
+        "top_reason_members": [
+          {
+            "reason": "Unsigned code execution allowed",
+            "max_cvss": 7.3,
+            "freq": 1,
+            "avg_cvss": 7.3,
+            "cves": [
+              "CVE-2020-16994"
+            ]
+          },
+          {
+            "reason": "Allows execution of code that is not signed, potentially bypassing security mechanisms",
+            "max_cvss": 7.3,
+            "freq": 1,
+            "avg_cvss": 7.3,
+            "cves": [
+              "CVE-2020-16991"
+            ]
+          },
+          {
+            "reason": "Code is unsigned",
+            "max_cvss": 7.3,
+            "freq": 1,
+            "avg_cvss": 7.3,
+            "cves": [
+              "CVE-2020-16987"
+            ]
+          }
+        ],
+        "example_cves": [
+          "CVE-2020-16994",
+          "CVE-2020-16991",
+          "CVE-2020-16987"
+        ]
+      },
+      {
+        "reason_cluster": 28,
+        "representative_reason": "improper handling of ICMPv6 Router Advertisement packets",
+        "representative_reason_vuln_count": 1,
+        "total_cve_count": 2,
+        "reason_node_count": 2,
+        "avg_cvss": 8.15,
+        "max_cvss": 8.8,
+        "top_reason_members": [
+          {
+            "reason": "improper handling of ICMPv6 Router Advertisement packets",
+            "max_cvss": 8.8,
+            "freq": 1,
+            "avg_cvss": 8.8,
+            "cves": [
+              "CVE-2020-16898"
+            ]
+          },
+          {
+            "reason": "The TCP/IP stack improperly handles ICMPv6 Router Advertisement packets",
+            "max_cvss": 7.5,
+            "freq": 1,
+            "avg_cvss": 7.5,
+            "cves": [
+              "CVE-2020-16899"
+            ]
+          }
+        ],
+        "example_cves": [
+          "CVE-2020-16898",
+          "CVE-2020-16899"
+        ]
+      },
+      {
+        "reason_cluster": 49,
+        "representative_reason": "Windows improperly handles hard links",
+        "representative_reason_vuln_count": 1,
+        "total_cve_count": 1,
+        "reason_node_count": 1,
+        "avg_cvss": 10.0,
+        "max_cvss": 10.0,
+        "top_reason_members": [
+          {
+            "reason": "Windows improperly handles hard links",
+            "max_cvss": 10.0,
+            "freq": 1,
+            "avg_cvss": 10.0,
+            "cves": [
+              "CVE-2020-1467"
+            ]
+          }
+        ],
+        "example_cves": [
+          "CVE-2020-1467"
+        ]
+      }
+    ]
+  }
+]

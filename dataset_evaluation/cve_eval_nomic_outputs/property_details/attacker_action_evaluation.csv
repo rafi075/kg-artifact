@@ -1,0 +1,50 @@
+cve_id,property,annotated,predicted,similarity,case
+CVE-2024-21732,attacker_action,,Inject malicious scripts via permission management,,only_extracted
+CVE-2023-5877,attacker_action,make requests to arbitrary URL's,"make requests to arbitrary URLs, including RFC1918 private addresses",0.9094460010528564,both_present
+CVE-2023-6000,attacker_action,"updating existing popups, and injecting raw JavaScript in them",Update existing popups and inject raw JavaScript,0.9900842905044556,both_present
+CVE-2023-6037,attacker_action,,perform Stored Cross-Site Scripting attacks,,only_extracted
+CVE-2023-6113,attacker_action,,Download the backups,,only_extracted
+CVE-2024-0181,attacker_action,The manipulation of the argument Firstname/Lastname/Username,Inject and execute malicious script through user input fields,0.7145785689353943,both_present
+CVE-2023-50094,attacker_action,The commands are executed as root via subprocess.check_output,inject OS commands via the url parameter,0.7532147169113159,both_present
+CVE-2023-50096,attacker_action,,read from and write to the I2C bus,,only_extracted
+CVE-2024-0182,attacker_action,manipulation of the argument username/password,Manipulate argument username/password for SQL statements,0.9026787281036377,both_present
+CVE-2024-0186,attacker_action,,manipulation of HTTP POST Request,,only_extracted
+CVE-2023-32831,attacker_action,,Attempt to crack PIN,,only_extracted
+CVE-2023-32874,attacker_action,,Exploit the out of bounds write,,only_extracted
+CVE-2023-32872,attacker_action,,local escalation of privilege with System execution privileges,,only_extracted
+CVE-2023-32878,attacker_action,information disclosure,,,only_annotated
+CVE-2023-32884,attacker_action,,Exploit the information disclosure vulnerability,,only_extracted
+CVE-2023-32888,attacker_action,,Make a crafted remote request,,only_extracted
+CVE-2023-26157,attacker_action,,,1.0,both_empty
+CVE-2023-26159,attacker_action,"When new URL() throws an error, it can be manipulated to misinterpret the hostname",manipulate URL to misinterpret hostname,0.9321590662002563,both_present
+CVE-2023-28583,attacker_action,,,1.0,both_empty
+CVE-2023-33032,attacker_action,,exploit memory corruption,,only_extracted
+CVE-2023-33037,attacker_action,,Exploit the cryptographic issue,,only_extracted
+CVE-2023-33108,attacker_action,,Exploit graphics driver to initiate context destruction with specific objects queued,,only_extracted
+CVE-2023-33110,attacker_action,,,1.0,both_empty
+CVE-2023-43512,attacker_action,,Exploit the buffer overflow by parsing data with excessive memory requirements,,only_extracted
+CVE-2023-47039,attacker_action,place`cmd.exe` in locations with weak permissions,Place cmd.exe in locations with weak permissions,0.9946702718734741,both_present
+CVE-2023-49142,attacker_action,modify a released pointer,modify a released pointer,1.0,both_present
+CVE-2023-47858,attacker_action,,send requests to the endpoint to get details about archived public channels,,only_extracted
+CVE-2023-6693,attacker_action,overwrite local variables allocated on the stack,Overwrite local variables allocated on the stack,1.0,both_present
+CVE-2023-6436,attacker_action,,Execute SQL Injection,,only_extracted
+CVE-2015-10128,attacker_action,,launch a remote attack,,only_extracted
+CVE-2017-20188,attacker_action,manipulation of the argument message,exploit cross site scripting by manipulating the argument message,0.8395256996154785,both_present
+CVE-2018-25097,attacker_action,,remote attack via cross site scripting,,only_extracted
+CVE-2023-4280,attacker_action,,Access the trusted region of memory from the untrusted region,,only_extracted
+CVE-2024-0193,attacker_action,,exploit a use-after-free condition on NFT_CHAIN or NFT_OBJECT,,only_extracted
+CVE-2022-3010,attacker_action,,calculate the login credentials for SSH service,,only_extracted
+CVE-2023-48419,attacker_action,spy on the victim,Spy on the victim,1.0,both_present
+CVE-2023-7192,attacker_action,,Cause a denial of service (DoS) attack,,only_extracted
+CVE-2023-49794,attacker_action,a KernelSU module installed device try to install any not checked apk which package name equal to the official KernelSU Manager,install a malicious apk with a specific package name,0.8682960271835327,both_present
+CVE-2023-50711,attacker_action,,Trigger out-of-bounds memory access through Rust-safe methods,,only_extracted
+CVE-2023-45892,attacker_action,,Access the Order and Invoice pages,,only_extracted
+CVE-2023-47458,attacker_action,,escalate privileges,,only_extracted
+CVE-2024-0194,attacker_action,,upload files without restrictions,,only_extracted
+CVE-2024-21623,attacker_action,,"run commands remotely on the runner, leak secrets, and alter the repository",,only_extracted
+CVE-2024-21627,attacker_action,,Inject malicious HTML for cross-site scripting,,only_extracted
+CVE-2020-26625,attacker_action,,Execute arbitrary web scripts,,only_extracted
+CVE-2023-50019,attacker_action,,Send Registration request at a specific time,,only_extracted
+CVE-2024-0196,attacker_action,,Remote code injection,,only_extracted
+CVE-2024-21629,attacker_action,,Use smart contracts to commit state changes under certain conditions,,only_extracted
+CVE-2024-21632,attacker_action,,Exploit the misconfiguration of `email` as user identifier,,only_extracted

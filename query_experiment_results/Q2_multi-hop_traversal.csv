@@ -1,0 +1,11 @@
+consequences,cve_id,cvss,network_access,privilege,vendor
+"[""Potential unauthorized execution of code on IoT devices""]",CVE-2021-42313,10.0,"[""remote""]",[],Microsoft
+"[""Overwrite a targeted file leading to elevated status""]",CVE-2020-1467,10.0,"[""local""]","[""authenticated""]",Microsoft
+"[""run arbitrary code in the context of the SharePoint application pool and the SharePoint server farm account""]",CVE-2020-1210,9.9,"[""remote""]","[""authenticated""]",Microsoft
+"[""Potential for an attacker to execute arbitrary code on the affected system.""]",CVE-2021-34458,9.9,"[""remote""]",[],Microsoft
+[],CVE-2021-26424,9.9,"[""remote""]",[],Microsoft
+"[""run arbitrary code in the context of the SharePoint application pool and the SharePoint server farm account""]",CVE-2020-1595,9.9,"[""remote""]","[""authenticated""]",Microsoft
+"[""Execution of arbitrary code on the affected system""]",CVE-2022-30133,9.8,"[""remote""]","[""unauthenticated""]",Microsoft
+"[""Arbitrary code execution on the server""]",CVE-2021-26897,9.8,"[""remote""]",[],Microsoft
+"[""Potential for an attacker to execute arbitrary code on the system""]",CVE-2022-22012,9.8,"[""remote""]",[],Microsoft
+"[""Attacker can execute arbitrary code on the vulnerable system""]",CVE-2022-29130,9.8,"[""remote""]","[""typically, no authentication required""]",Microsoft

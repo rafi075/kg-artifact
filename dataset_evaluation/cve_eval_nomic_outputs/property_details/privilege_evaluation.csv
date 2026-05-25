@@ -1,0 +1,50 @@
+cve_id,property,annotated,predicted,similarity,case
+CVE-2024-21732,privilege,,Authenticated,,only_extracted
+CVE-2023-5877,privilege,unauthenticated visitors,,,only_annotated
+CVE-2023-6000,privilege,simple visitors,Unauthenticated,0.6549952030181885,both_present
+CVE-2023-6037,privilege,high privilege users such as admin,High privilege (such as admin),0.9608160257339478,both_present
+CVE-2023-6113,privilege,unauthenticated attackers,Unauthenticated,0.8944485783576965,both_present
+CVE-2024-0181,privilege,,Unauthenticated,,only_extracted
+CVE-2023-50094,privilege,valid session ID,Valid session ID,1.0,both_present
+CVE-2023-50096,privilege,ability to read from and write to the I2C bus,No specific privilege required beyond access to I2C bus,0.8699290752410889,both_present
+CVE-2024-0182,privilege,,Unauthenticated,,only_extracted
+CVE-2024-0186,privilege,,,1.0,both_empty
+CVE-2023-32831,privilege,no execution privileges needed,No execution privileges needed,1.0,both_present
+CVE-2023-32874,privilege,no additional execution privileges needed,No additional execution privileges needed,1.0,both_present
+CVE-2023-32872,privilege,System execution privileges needed,System execution privileges,0.9861440062522888,both_present
+CVE-2023-32878,privilege,System execution privileges needed,System execution privileges,0.9861440062522888,both_present
+CVE-2023-32884,privilege,System execution privileges needed,System,0.7963235378265381,both_present
+CVE-2023-32888,privilege,no additional execution privileges needed,No additional execution privileges needed,1.0,both_present
+CVE-2023-26157,privilege,,,1.0,both_empty
+CVE-2023-26159,privilege,,Unauthenticated,,only_extracted
+CVE-2023-28583,privilege,,,1.0,both_empty
+CVE-2023-33032,privilege,,Authenticated,,only_extracted
+CVE-2023-33037,privilege,,,1.0,both_empty
+CVE-2023-33108,privilege,,,1.0,both_empty
+CVE-2023-33110,privilege,,,1.0,both_empty
+CVE-2023-43512,privilege,,Unauthenticated,,only_extracted
+CVE-2023-47039,privilege,limited privileges,Limited privileges,1.0,both_present
+CVE-2023-49142,privilege,,Authenticated,,only_extracted
+CVE-2023-47858,privilege,member of one team,Member of one team,1.0,both_present
+CVE-2023-6693,privilege,,,1.0,both_empty
+CVE-2023-6436,privilege,,Unauthenticated,,only_extracted
+CVE-2015-10128,privilege,,,1.0,both_empty
+CVE-2017-20188,privilege,,Unauthenticated,,only_extracted
+CVE-2018-25097,privilege,,Unauthenticated,,only_extracted
+CVE-2023-4280,privilege,,Untrusted region access,,only_extracted
+CVE-2024-0193,privilege,unprivileged user with CAP_NET_ADMIN capability,Unprivileged user with CAP_NET_ADMIN capability,1.0,both_present
+CVE-2022-3010,privilege,,,1.0,both_empty
+CVE-2023-48419,privilege,,Unauthenticated,,only_extracted
+CVE-2023-7192,privilege,CAP_NET_ADMIN privileges,CAP_NET_ADMIN privileges,1.0,both_present
+CVE-2023-49794,privilege,,Root access,,only_extracted
+CVE-2023-50711,privilege,,,1.0,both_empty
+CVE-2023-45892,privilege,unauthenticated,Unauthenticated,1.0,both_present
+CVE-2023-47458,privilege,,Low,,only_extracted
+CVE-2024-0194,privilege,,Unauthenticated,,only_extracted
+CVE-2024-21623,privilege,,Unauthenticated,,only_extracted
+CVE-2024-21627,privilege,,Authenticated access may be required,,only_extracted
+CVE-2020-26625,privilege,,Authenticated,,only_extracted
+CVE-2023-50019,privilege,,Unauthenticated,,only_extracted
+CVE-2024-0196,privilege,,Unauthenticated,,only_extracted
+CVE-2024-21629,privilege,,,1.0,both_empty
+CVE-2024-21632,privilege,,Unauthenticated,,only_extracted

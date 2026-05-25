@@ -1,0 +1,50 @@
+cve_id,property,annotated,predicted,similarity,case
+CVE-2024-21732,system_state,,,1.0,both_empty
+CVE-2023-5877,system_state,,,1.0,both_empty
+CVE-2023-6000,system_state,,,1.0,both_empty
+CVE-2023-6037,system_state,even when the unfiltered_html capability is disallowed,multisite setup where unfiltered_html capability is disallowed,0.9019680023193359,both_present
+CVE-2023-6113,system_state,,,1.0,both_empty
+CVE-2024-0181,system_state,,,1.0,both_empty
+CVE-2023-50094,system_state,,attacker needs to have a valid session ID,,only_extracted
+CVE-2023-50096,system_state,,,1.0,both_empty
+CVE-2024-0182,system_state,,,1.0,both_empty
+CVE-2024-0186,system_state,,,1.0,both_empty
+CVE-2023-32831,system_state,,,1.0,both_empty
+CVE-2023-32874,system_state,,,1.0,both_empty
+CVE-2023-32872,system_state,,,1.0,both_empty
+CVE-2023-32878,system_state,,,1.0,both_empty
+CVE-2023-32884,system_state,,,1.0,both_empty
+CVE-2023-32888,system_state,,,1.0,both_empty
+CVE-2023-26157,system_state,,,1.0,both_empty
+CVE-2023-26159,system_state,,,1.0,both_empty
+CVE-2023-28583,system_state,,,1.0,both_empty
+CVE-2023-33032,system_state,,,1.0,both_empty
+CVE-2023-33037,system_state,,,1.0,both_empty
+CVE-2023-33108,system_state,with KGSL_GPU_AUX_COMMAND_TIMELINE objects queued,,,only_annotated
+CVE-2023-33110,system_state,,PCM open and close states,,only_extracted
+CVE-2023-43512,system_state,when the total amount of memory that is required by the multiple services is greater than the actual size of the services buffer,Buffer overflow condition,0.8052552938461304,both_present
+CVE-2023-47039,system_state,,cmd.exe placed in locations with weak permissions,,only_extracted
+CVE-2023-49142,system_state,,Local access,,only_extracted
+CVE-2023-47858,system_state,,,1.0,both_empty
+CVE-2023-6693,system_state,"if guest features VIRTIO_NET_F_HASH_REPORT, VIRTIO_F_VERSION_1 and VIRTIO_NET_F_MRG_RXBUF are enabled","Guest features VIRTIO_NET_F_HASH_REPORT, VIRTIO_F_VERSION_1 and VIRTIO_NET_F_MRG_RXBUF are enabled",0.9880027770996094,both_present
+CVE-2023-6436,system_state,,,1.0,both_empty
+CVE-2015-10128,system_state,,,1.0,both_empty
+CVE-2017-20188,system_state,,,1.0,both_empty
+CVE-2018-25097,system_state,,,1.0,both_empty
+CVE-2023-4280,system_state,,,1.0,both_empty
+CVE-2024-0193,system_state,,local system with CAP_NET_ADMIN capability,,only_extracted
+CVE-2022-3010,system_state,,,1.0,both_empty
+CVE-2023-48419,system_state,,Wi-Fi connectivity,,only_extracted
+CVE-2023-7192,system_state,,Local attacker with CAP_NET_ADMIN privileges,,only_extracted
+CVE-2023-49794,system_state,,Device with KernelSU module installed,,only_extracted
+CVE-2023-50711,system_state,,,1.0,both_empty
+CVE-2023-45892,system_state,,,1.0,both_empty
+CVE-2023-47458,system_state,,,1.0,both_empty
+CVE-2024-0194,system_state,,,1.0,both_empty
+CVE-2024-21623,system_state,,using the vulnerable workflow,,only_extracted
+CVE-2024-21627,system_state,,"Legacy object models, fields of HTML type will call isCleanHTML",,only_extracted
+CVE-2020-26625,system_state,after the login portal,Logged in state required,0.763903021812439,both_present
+CVE-2023-50019,system_state,,,1.0,both_empty
+CVE-2024-0196,system_state,,,1.0,both_empty
+CVE-2024-21629,system_state,impacts library users with custom `record_external_operation` that returns errors,Use of custom record_external_operation that returns errors,0.9431802034378052,both_present
+CVE-2024-21632,system_state,,nOAuth misconfiguration,,only_extracted

@@ -1,0 +1,50 @@
+cve_id,property,annotated,predicted,similarity,case
+CVE-2024-21732,source,via the permission management feature,permission management feature,0.9705323576927185,both_present
+CVE-2023-5877,source,affiliate-toolkit-starter/tools/atkp_imagereceiver.php endpoint,affiliate-toolkit-starter/tools/atkp_imagereceiver.php endpoint,1.0,both_present
+CVE-2023-6000,source,,Popup updating mechanism,,only_extracted
+CVE-2023-6037,source,,some of its settings,,only_extracted
+CVE-2023-6113,source,,Backup process handling,,only_extracted
+CVE-2024-0181,source,unknown functionality of the file /admin/admin_user.php of the component Admin Panel,/admin/admin_user.php file of the Admin Panel,0.9370125532150269,both_present
+CVE-2023-50094,source,api/tools/waf_detector/?url= string,api/tools/waf_detector/?url= parameter,0.9700934886932373,both_present
+CVE-2023-50096,source,X-CUBE-SAFEA1 Software Package for STSAFE-A sample applications (1.2.0),StSafeA_ReceiveBytes,0.7576248645782471,both_present
+CVE-2024-0182,source,some unknown functionality of the file /admin/ of the component Admin Login,/admin/ component in Admin Login,0.9349101781845093,both_present
+CVE-2024-0186,source,unknown function of the file /user/index/findpass?do=4 of the component HTTP POST Request Handler,/user/index/findpass?do=4 of the component HTTP POST Request Handler,0.9715324640274048,both_present
+CVE-2023-32831,source,wlan driver,wlan driver,1.0,both_present
+CVE-2023-32874,source,,Missing bounds check,,only_extracted
+CVE-2023-32872,source,,missing bounds check,,only_extracted
+CVE-2023-32878,source,,missing bounds check,,only_extracted
+CVE-2023-32884,source,,Incorrect bounds check,,only_extracted
+CVE-2023-32888,source,,Missing bounds check,,only_extracted
+CVE-2023-26157,source,section->num_pages in decode_r2007.c,section->num_pages in decode_r2007.c,1.0,both_present
+CVE-2023-26159,source,url.parse() function,url.parse() function,1.0,both_present
+CVE-2023-28583,source,IPv6 prefix timer object,IPv6 prefix timer object's,0.9923174977302551,both_present
+CVE-2023-33032,source,Secure OS,TA region memory allocation request,0.636947512626648,both_present
+CVE-2023-33037,source,,Cryptographic function,,only_extracted
+CVE-2023-33108,source,,KGSL_GPU_AUX_COMMAND_TIMELINE objects,,only_extracted
+CVE-2023-33110,source,session index variable,session index variable,1.0,both_present
+CVE-2023-43512,source,GATT service data,service data parser,0.786708652973175,both_present
+CVE-2023-47039,source,Perl,System path environment variable reliance,0.6502926349639893,both_present
+CVE-2023-49142,source,,multimedia audio,,only_extracted
+CVE-2023-47858,source,GET /api/v4/teams/<team-id>/channels/deleted endpoint,GET /api/v4/teams/<team-id>/channels/deleted endpoint,1.0,both_present
+CVE-2023-6693,source,virtio-net device of QEMU,virtio_net_flush_tx function,0.8167190551757812,both_present
+CVE-2023-6436,source,,SQL command,,only_extracted
+CVE-2015-10128,source,function royal_prettyphoto_plugin_links of the file rt-prettyphoto.php,rt-prettyphoto.php,0.8993356823921204,both_present
+CVE-2017-20188,source,function XFormItem.prototype.setError of the file WebRoot/js/ajax/dwt/xforms/XFormItem.js,XFormItem.prototype.setError of the file WebRoot/js/ajax/dwt/xforms/XFormItem.js,0.9956793785095215,both_present
+CVE-2018-25097,source,unknown function,unknown function,1.0,both_present
+CVE-2023-4280,source,,TrustZone implementation,,only_extracted
+CVE-2024-0193,source,NFT_CHAIN object or NFT_OBJECT object,netfilter subsystem,0.6726471781730652,both_present
+CVE-2022-3010,source,,SSH service,,only_extracted
+CVE-2023-48419,source,,Google Home device,,only_extracted
+CVE-2023-7192,source,ctnetlink_create_conntrack in net/netfilter/nf_conntrack_netlink.c,net/netfilter/nf_conntrack_netlink.c,0.9450283050537109,both_present
+CVE-2023-49794,source,get apk path,logic of get apk path in KernelSU kernel module,0.8633600473403931,both_present
+CVE-2023-50711,source,`FamStructWrapper::deserialize` implementation provided by the crate for `vmm_sys_util::fam::FamStructWrapper`,FamStructWrapper::deserialize implementation,0.9279756546020508,both_present
+CVE-2023-45892,source,Order and Invoice pages,Order and Invoice pages,1.0,both_present
+CVE-2023-47458,source,via the lack of permissions control framework,permissions control framework,0.948835015296936,both_present
+CVE-2024-0194,source,unknown processing of the file pages_account.php of the component Profile Picture Handler,pages_account.php of the component Profile Picture Handler,0.9352895021438599,both_present
+CVE-2024-21623,source,"/mehah/otclient ""`Analysis - SonarCloud`"" workflow",/mehah/otclient 'Analysis - SonarCloud' workflow,0.9952581524848938,both_present
+CVE-2024-21627,source,`isCleanHTML` method,isCleanHTML method in certain modules,0.9412089586257935,both_present
+CVE-2020-26625,source,via the 'user_id' parameter,'user_id' parameter,0.9709867835044861,both_present
+CVE-2023-50019,source,,AMF,,only_extracted
+CVE-2024-0196,source,unknown functionality of the file /resource/file/api/save?auto=1,/resource/file/api/save?auto=1,0.9788131713867188,both_present
+CVE-2024-21629,source,feature called `record_external_operation`,record_external_operation feature,0.9799869656562805,both_present
+CVE-2024-21632,source,`email` attribute,Implementation of Omniauth strategy for Microsoft Graph API,0.6406762599945068,both_present

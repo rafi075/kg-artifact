@@ -1,0 +1,50 @@
+cve_id,property,annotated,predicted,similarity,case
+CVE-2024-21732,software_version,through abbaa5a,through abbaa5a,1.0,both_present
+CVE-2023-5877,software_version,before 3.4.3,before 3.4.3,1.0,both_present
+CVE-2023-6000,software_version,before 4.2.3,before 4.2.3,1.0,both_present
+CVE-2023-6037,software_version,before 11.9,before 11.9,1.0,both_present
+CVE-2023-6113,software_version,before 5.1.3,"WP STAGING before 3.1.3, WP STAGING Pro before 5.1.3",0.79060298204422,both_present
+CVE-2024-0181,software_version,1.0,1.0,1.0,both_present
+CVE-2023-50094,software_version,through 2.0.2,before 2.1.2,0.8976640701293945,both_present
+CVE-2023-50096,software_version,before 3.3.7,before 3.3.7,1.0,both_present
+CVE-2024-0182,software_version,1.0,1.0,1.0,both_present
+CVE-2024-0186,software_version,up to 2.0.0,up to 2.0.0,1.0,both_present
+CVE-2023-32831,software_version,,,1.0,both_empty
+CVE-2023-32874,software_version,,,1.0,both_empty
+CVE-2023-32872,software_version,,,1.0,both_empty
+CVE-2023-32878,software_version,,,1.0,both_empty
+CVE-2023-32884,software_version,,,1.0,both_empty
+CVE-2023-32888,software_version,,,1.0,both_empty
+CVE-2023-26157,software_version,before 0.12.5.6384,before 0.12.5.6384,1.0,both_present
+CVE-2023-26159,software_version,before 1.15.4,before 1.15.4,1.0,both_present
+CVE-2023-28583,software_version,,,1.0,both_empty
+CVE-2023-33032,software_version,,,1.0,both_empty
+CVE-2023-33037,software_version,,,1.0,both_empty
+CVE-2023-33108,software_version,,,1.0,both_empty
+CVE-2023-33110,software_version,,,1.0,both_empty
+CVE-2023-43512,software_version,,,1.0,both_empty
+CVE-2023-47039,software_version,,,1.0,both_empty
+CVE-2023-49142,software_version,v3.2.2 and prior versions,v3.2.2 and prior versions,1.0,both_present
+CVE-2023-47858,software_version,,,1.0,both_empty
+CVE-2023-6693,software_version,,,1.0,both_empty
+CVE-2023-6436,software_version,through 20231215,through 20231215,1.0,both_present
+CVE-2015-10128,software_version,up to 1.2,up to 1.2,1.0,both_present
+CVE-2017-20188,software_version,up to 8.8.1,up to 8.8.1,1.0,both_present
+CVE-2018-25097,software_version,up to 2.0.7,up to 2.0.7,1.0,both_present
+CVE-2023-4280,software_version,v4.3.x and earlier,v4.3.x and earlier,1.0,both_present
+CVE-2024-0193,software_version,,,1.0,both_empty
+CVE-2022-3010,software_version,,,1.0,both_empty
+CVE-2023-48419,software_version,,,1.0,both_empty
+CVE-2023-7192,software_version,,,1.0,both_empty
+CVE-2023-49794,software_version,0.7.1 and prior,0.7.1 and prior,1.0,both_present
+CVE-2023-50711,software_version,0.5.0 and prior to version 0.12.0,starting in version 0.5.0 and prior to version 0.12.0,0.9545919895172119,both_present
+CVE-2023-45892,software_version,,Q3 2023,,only_extracted
+CVE-2023-47458,software_version,v.3.7.0 and before,v.3.7.0 and before,1.0,both_present
+CVE-2024-0194,software_version,up to 1.0,up to 1.0,1.0,both_present
+CVE-2024-21623,software_version,Prior to commit db560de0b56476c87a2f967466407939196dd254,prior to commit db560de0b56476c87a2f967466407939196dd254,1.0,both_present
+CVE-2024-21627,software_version,Prior to versions 8.1.3 and 1.7.8.11,prior to 8.1.3 and 1.7.8.11,0.9833180904388428,both_present
+CVE-2020-26625,software_version,1.15.4 and earlier,1.15.4 and earlier,1.0,both_present
+CVE-2023-50019,software_version,v2.6.6,v2.6.6,1.0,both_present
+CVE-2024-0196,software_version,up to 2.0.1,up to 2.0.1,1.0,both_present
+CVE-2024-21629,software_version,,before 0.41.1,,only_extracted
+CVE-2024-21632,software_version,Prior to versions 2.0.0,prior to 2.0.0,0.9704105854034424,both_present

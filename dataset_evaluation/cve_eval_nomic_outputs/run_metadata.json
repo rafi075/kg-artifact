@@ -1,0 +1,23 @@
+{
+  "model": "nomic-ai/nomic-embed-text-v1.5",
+  "task_prefix": "clustering",
+  "embedding_normalized": true,
+  "similarity": "cosine similarity",
+  "aligned_rows": 49,
+  "properties": [
+    "vendor",
+    "software",
+    "software_version",
+    "source",
+    "reason",
+    "trigger",
+    "attacker_action",
+    "consequences",
+    "system_state",
+    "user_interaction",
+    "operating_system",
+    "network_access",
+    "privilege",
+    "vulnerability_type"
+  ]
+}

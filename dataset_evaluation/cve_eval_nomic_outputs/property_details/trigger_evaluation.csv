@@ -1,0 +1,50 @@
+cve_id,property,annotated,predicted,similarity,case
+CVE-2024-21732,trigger,,Exploitation of permission management feature,,only_extracted
+CVE-2023-5877,trigger,,unauthenticated requests to arbitrary URLs,,only_extracted
+CVE-2023-6000,trigger,updating existing popups,Simple visitors updating existing popups and injecting JavaScript,0.8768488168716431,both_present
+CVE-2023-6037,trigger,,settings not being sanitized and escaped,,only_extracted
+CVE-2023-6113,trigger,,Fetching backup information,,only_extracted
+CVE-2024-0181,trigger,,Manipulation of the argument Firstname/Lastname/Username,,only_extracted
+CVE-2023-50094,trigger,shell metacharacters in an api/tools/waf_detector/?url= string,placing shell metacharacters in the url parameter,0.9047465324401855,both_present
+CVE-2023-50096,trigger,,ability to read from and write to the I2C bus,,only_extracted
+CVE-2024-0182,trigger,,Manipulation of username/password arguments,,only_extracted
+CVE-2024-0186,trigger,,,1.0,both_empty
+CVE-2023-32831,trigger,,,1.0,both_empty
+CVE-2023-32874,trigger,,,1.0,both_empty
+CVE-2023-32872,trigger,,,1.0,both_empty
+CVE-2023-32878,trigger,,,1.0,both_empty
+CVE-2023-32884,trigger,,,1.0,both_empty
+CVE-2023-32888,trigger,,,1.0,both_empty
+CVE-2023-26157,trigger,,,1.0,both_empty
+CVE-2023-26159,trigger,new URL() throws an error,use of the url.parse() function,0.8365219831466675,both_present
+CVE-2023-28583,trigger,while Netmgr daemon gets an IPv6 address,IPv6 prefix timer object's lifetime expiration,0.74906986951828,both_present
+CVE-2023-33032,trigger,while requesting a memory allocation from TA region,requesting a memory allocation from TA region,0.9873342514038086,both_present
+CVE-2023-33037,trigger,while unwrapping the key secs2d and verifying with RPMB data,Unwrapping the key secs2d,0.8880099058151245,both_present
+CVE-2023-33108,trigger,destroying a context,destroying a context with KGSL_GPU_AUX_COMMAND_TIMELINE objects queued,0.8085973262786865,both_present
+CVE-2023-33110,trigger,"initialized before PCM open, accessed during event callback from ADSP and reset during PCM close may lead to race condition between event callback",Event callback from ADSP and PCM close,0.8907305002212524,both_present
+CVE-2023-43512,trigger,while parsing GATT service data,parsing GATT service data,0.9811238050460815,both_present
+CVE-2023-47039,trigger,when an administrator attempts to use this executable from these compromised locations,Running an executable using the Windows Perl interpreter,0.766834020614624,both_present
+CVE-2023-49142,trigger,,modification of a released pointer,,only_extracted
+CVE-2023-47858,trigger,viewing archived public channels,a member of one team requests details about archived public channels of another team,0.8353772163391113,both_present
+CVE-2023-6693,trigger,occurs when flushing TX in the virtio_net_flush_tx function,"Flushing TX in virtio_net_flush_tx when VIRTIO_NET_F_HASH_REPORT, VIRTIO_F_VERSION_1, and VIRTIO_NET_F_MRG_RXBUF are enabled",0.9363316893577576,both_present
+CVE-2023-6436,trigger,,Special Elements used in an SQL Command,,only_extracted
+CVE-2015-10128,trigger,,,1.0,both_empty
+CVE-2017-20188,trigger,,,1.0,both_empty
+CVE-2018-25097,trigger,,,1.0,both_empty
+CVE-2023-4280,trigger,,Access from untrusted region,,only_extracted
+CVE-2024-0193,trigger,,deactivation of the element twice,,only_extracted
+CVE-2022-3010,trigger,,attacker calculates the login credentials,,only_extracted
+CVE-2023-48419,trigger,,Presence of attacker in the Wi-Fi vicinity of target,,only_extracted
+CVE-2023-7192,trigger,,Use of ctnetlink_create_conntrack,,only_extracted
+CVE-2023-49794,trigger,,installing any malicious apk named 'me.weishu.kernelsu',,only_extracted
+CVE-2023-50711,trigger,,Mismatch in the lengths might allow out of bounds memory access,,only_extracted
+CVE-2023-45892,trigger,,Accessing Order and Invoice pages without authentication,,only_extracted
+CVE-2023-47458,trigger,,remote access without permissions control,,only_extracted
+CVE-2024-0194,trigger,,manipulation of the file pages_account.php,,only_extracted
+CVE-2024-21623,trigger,,expression injection in Actions,,only_extracted
+CVE-2024-21627,trigger,,Use of some modules using the isCleanHTML method,,only_extracted
+CVE-2020-26625,trigger,,Providing malicious input to the 'user_id' parameter,,only_extracted
+CVE-2023-50019,trigger,Registration request sent at a specific time,"InitialUEMessage, Registration request sent at a specific time",0.9237171411514282,both_present
+CVE-2024-0196,trigger,,Manipulation,,only_extracted
+CVE-2024-21629,trigger,"in the case that the substack execution happens successfully, `rust-evm` will first commit the substate, and then call `record_external_operation(Write(out_code.len()))`",record_external_operation fails after substate commitment,0.8286310434341431,both_present
+CVE-2024-21632,trigger,nOAuth misconfiguration in cases when the `email` is used as a trusted user identifier,Using `email` as a trusted user identifier,0.8875606060028076,both_present

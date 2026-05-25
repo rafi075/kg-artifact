@@ -1,0 +1,50 @@
+cve_id,property,annotated,predicted,similarity,case
+CVE-2024-21732,vendor,,FlyCms,,only_extracted
+CVE-2023-5877,vendor,,affiliate-toolkit,,only_extracted
+CVE-2023-6000,vendor,,WordPress,,only_extracted
+CVE-2023-6037,vendor,,WordPress,,only_extracted
+CVE-2023-6113,vendor,,WordPress,,only_extracted
+CVE-2024-0181,vendor,,RRJ Nueva Ecija,,only_extracted
+CVE-2023-50094,vendor,,reNgine,,only_extracted
+CVE-2023-50096,vendor,STMicroelectronics,STMicroelectronics,1.0,both_present
+CVE-2024-0182,vendor,,SourceCodester,,only_extracted
+CVE-2024-0186,vendor,,HuiRan,,only_extracted
+CVE-2023-32831,vendor,,,1.0,both_empty
+CVE-2023-32874,vendor,,,1.0,both_empty
+CVE-2023-32872,vendor,,,1.0,both_empty
+CVE-2023-32878,vendor,,,1.0,both_empty
+CVE-2023-32884,vendor,,,1.0,both_empty
+CVE-2023-32888,vendor,,,1.0,both_empty
+CVE-2023-26157,vendor,,,1.0,both_empty
+CVE-2023-26159,vendor,,,1.0,both_empty
+CVE-2023-28583,vendor,,,1.0,both_empty
+CVE-2023-33032,vendor,,,1.0,both_empty
+CVE-2023-33037,vendor,,Automotive,,only_extracted
+CVE-2023-33108,vendor,,,1.0,both_empty
+CVE-2023-33110,vendor,,,1.0,both_empty
+CVE-2023-43512,vendor,,,1.0,both_empty
+CVE-2023-47039,vendor,,Perl,,only_extracted
+CVE-2023-49142,vendor,,OpenHarmony,,only_extracted
+CVE-2023-47858,vendor,,Mattermost,,only_extracted
+CVE-2023-6693,vendor,,QEMU,,only_extracted
+CVE-2023-6436,vendor,,Ekol Informatics,,only_extracted
+CVE-2015-10128,vendor,,WordPress,,only_extracted
+CVE-2017-20188,vendor,,Zimbra,,only_extracted
+CVE-2018-25097,vendor,,Acumos,,only_extracted
+CVE-2023-4280,vendor,Silicon Labs,Silicon Labs,1.0,both_present
+CVE-2024-0193,vendor,,Linux,,only_extracted
+CVE-2022-3010,vendor,Priva,Priva,1.0,both_present
+CVE-2023-48419,vendor,Google,Google,1.0,both_present
+CVE-2023-7192,vendor,,Linux,,only_extracted
+CVE-2023-49794,vendor,,KernelSU,,only_extracted
+CVE-2023-50711,vendor,,,1.0,both_empty
+CVE-2023-45892,vendor,Floorsight,Floorsight,1.0,both_present
+CVE-2023-47458,vendor,,,1.0,both_empty
+CVE-2024-0194,vendor,,CodeAstro,,only_extracted
+CVE-2024-21623,vendor,,OTClient,,only_extracted
+CVE-2024-21627,vendor,,PrestaShop,,only_extracted
+CVE-2020-26625,vendor,,Gila CMS,,only_extracted
+CVE-2023-50019,vendor,,open5gs,,only_extracted
+CVE-2024-0196,vendor,,Magic-Api,,only_extracted
+CVE-2024-21629,vendor,,Rust EVM,,only_extracted
+CVE-2024-21632,vendor,Microsoft,Omniauth,0.6697813272476196,both_present

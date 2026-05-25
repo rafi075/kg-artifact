@@ -1,0 +1,8 @@
+node_rows_considered,avg_reachable_component_size,max_reachable_component_size,p50_reachable_component_size,p90_reachable_component_size,field
+2778,2778.0,2778,2778.0,2778.0,Reason
+3354,3354.0,3354,3354.0,3354.0,AttackerAction
+3442,3442.0,3442,3442.0,3442.0,Consequence
+3037,3037.0,3037,3037.0,3037.0,Trigger
+1339,1339.0,1339,1339.0,1339.0,SystemState
+3381,3381.0,3381,3381.0,3381.0,Source
+973,973.0,973,973.0,973.0,VulnerabilityType
