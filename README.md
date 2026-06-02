@@ -71,14 +71,14 @@ If your dataset has a different name, update `CSV_PATH` in:
 - `create_semantic_embeddings.py`
 - `load_semantic_nodes.py`
 
-add Graph Data Science (GDS) plugin to the database. GDS plugin can be installed the GDS library directly from the Neo4j UI
+add Graph Data Science (GDS) plugin to the database. GDS plugin can be installed from the GDS library directly from the Neo4j UI
 
 ## 5. Fresh KG creation
 
 Start a new empty Neo4j database in Neo4j Desktop. Then run:
 
 ```bash
-bash create_kg_fresh.sh --top_k 10 --reciprocal False
+bash create_kg_fresh.sh --top_k 10 --reciprocal True
 ```
 
 To enforce reciprocal `SIMILAR_TO` edges:
